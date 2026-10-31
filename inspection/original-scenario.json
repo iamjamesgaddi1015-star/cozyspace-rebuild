@@ -1,0 +1,14 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+    "headless": true
+  },
+  "start_url": { "url": "https://cozyspacedesignservices.com/" },
+  "environment": { "viewport": { "width": 1440, "height": 1000 } },
+  "actions": [
+    { "step_id": "settle", "action": "wait_for_timeout", "duration_ms": 3500 }
+  ],
+  "capture": { "at_end": ["url", "dom", "accessibility", "screenshot"] },
+  "command_timeout_ms": 60000
+}

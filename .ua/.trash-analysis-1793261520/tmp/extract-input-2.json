@@ -1,0 +1,32 @@
+{
+  "projectRoot": "C:\\Users\\222170\\Documents\\James-Workspace\\04-Personal-Projects\\cozyspace-rebuild",
+  "batchFiles": [
+    {
+      "path": "scripts/build.mjs",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/tooling.mjs",
+      "language": "javascript",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/typecheck.mjs",
+      "language": "javascript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "scripts/build.mjs": [
+      "scripts/tooling.mjs"
+    ],
+    "scripts/tooling.mjs": [],
+    "scripts/typecheck.mjs": [
+      "scripts/tooling.mjs"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "projectRoot": "C:\\Users\\222170\\Documents\\James-Workspace\\04-Personal-Projects\\cozyspace-rebuild",
+  "batchFiles": [
+    {
+      "path": "DESIGN.md",
+      "language": "markdown",
+      "sizeLines": 101,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "MEDIA-GUIDE.md",
+      "language": "markdown",
+      "sizeLines": 36,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "sizeLines": 74,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "Start CozySpace.cmd",
+      "language": "batch",
+      "sizeLines": 6,
+      "fileCategory": "script"
+    },
+    {
+      "path": "TASKS.md",
+      "language": "markdown",
+      "sizeLines": 17,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "UX-CONTRACT.md",
+      "language": "markdown",
+      "sizeLines": 16,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "index.html",
+      "language": "html",
+      "sizeLines": 18,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "package.json",
+      "language": "json",
+      "sizeLines": 26,
+      "fileCategory": "config"
+    },
+    {
+      "path": "tsconfig.json",
+      "language": "json",
+      "sizeLines": 15,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "DESIGN.md": [],
+    "MEDIA-GUIDE.md": [],
+    "README.md": [],
+    "Start CozySpace.cmd": [],
+    "TASKS.md": [],
+    "UX-CONTRACT.md": [],
+    "index.html": [],
+    "package.json": [],
+    "tsconfig.json": []
+  }
+}

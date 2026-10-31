@@ -1,0 +1,214 @@
+{
+  "nodes": [
+    {
+      "id": "document:DESIGN.md",
+      "type": "document",
+      "name": "DESIGN.md",
+      "filePath": "DESIGN.md",
+      "summary": "Records brand direction, typography, colors, layout and accessibility decisions that guide the rendered site.",
+      "tags": [
+        "docs",
+        "markdown",
+        "project-context"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:MEDIA-GUIDE.md",
+      "type": "document",
+      "name": "MEDIA-GUIDE.md",
+      "filePath": "MEDIA-GUIDE.md",
+      "summary": "Explains replaceable local image/video slots, file locations, recommended dimensions and rebuild steps.",
+      "tags": [
+        "docs",
+        "markdown",
+        "project-context"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "Explains local startup, editable source boundaries, integration limitations, verification commands and recovery.",
+      "tags": [
+        "docs",
+        "markdown",
+        "project-context"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Start CozySpace.cmd",
+      "type": "file",
+      "name": "Start CozySpace.cmd",
+      "filePath": "Start CozySpace.cmd",
+      "summary": "Starts the local preview server from the project directory using Node; does not install packages.",
+      "tags": [
+        "script",
+        "batch",
+        "project-context"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:TASKS.md",
+      "type": "document",
+      "name": "TASKS.md",
+      "filePath": "TASKS.md",
+      "summary": "Records task history, completed changes and remaining limitations; these historical checks are not rerun by this analysis.",
+      "tags": [
+        "docs",
+        "markdown",
+        "project-context"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:UX-CONTRACT.md",
+      "type": "document",
+      "name": "UX-CONTRACT.md",
+      "filePath": "UX-CONTRACT.md",
+      "summary": "Defines canonical owners and consistent navigation, form, feedback, media and accessibility behavior.",
+      "tags": [
+        "docs",
+        "markdown",
+        "project-context"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "index.html",
+      "summary": "Provides document metadata and the root DOM mount used by the React browser entry point.",
+      "tags": [
+        "markup",
+        "html",
+        "project-context"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "package.json",
+      "summary": "Defines Node runtime requirements and the documented startup/build/check commands; no application execution is performed here.",
+      "tags": [
+        "config",
+        "json",
+        "project-context"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "tsconfig.json",
+      "summary": "Configures strict TypeScript and JSX compilation for the React source.",
+      "tags": [
+        "config",
+        "json",
+        "project-context"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "document:DESIGN.md",
+      "target": "file:src/styles.css",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:MEDIA-GUIDE.md",
+      "target": "file:src/media.ts",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:README.md",
+      "target": "config:package.json",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:TASKS.md",
+      "target": "config:package.json",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:UX-CONTRACT.md",
+      "target": "config:package.json",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "config:package.json",
+      "target": "file:scripts/build.mjs",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:package.json",
+      "target": "file:scripts/capture.cjs",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:package.json",
+      "target": "file:scripts/server-check.mjs",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:package.json",
+      "target": "file:scripts/server.mjs",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:package.json",
+      "target": "file:scripts/tooling.mjs",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:package.json",
+      "target": "file:scripts/typecheck.mjs",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:package.json",
+      "target": "file:scripts/verify.cjs",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:tsconfig.json",
+      "target": "file:src/main.tsx",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    }
+  ]
+}

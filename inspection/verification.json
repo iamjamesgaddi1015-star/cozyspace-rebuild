@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "baseUrl": "http://127.0.0.1:5176/",
+  "browser": "Chrome 155",
+  "checks": [
+    {
+      "name": "CozySpace metadata, single main heading, seven service chapters",
+      "detail": "passed"
+    },
+    {
+      "name": "Both original font families load locally",
+      "detail": "passed"
+    },
+    {
+      "name": "Room selector changes the image and pressed state",
+      "detail": "passed"
+    },
+    {
+      "name": "Every service photograph decodes successfully",
+      "detail": "passed"
+    },
+    {
+      "name": "All internal navigation destinations exist",
+      "detail": "passed"
+    },
+    {
+      "name": "Contact dialog: destinations, initial focus, focus containment, Escape, focus restoration, scroll unlock",
+      "detail": "passed"
+    },
+    {
+      "name": "Backdrop click closes contact options",
+      "detail": "passed"
+    },
+    {
+      "name": "No horizontal page overflow at 1440, 1280, 1024, 800, 768, 390 and 320px",
+      "detail": "passed"
+    },
+    {
+      "name": "Mobile menu: open, Escape, focus restore, navigation and auto-close",
+      "detail": "passed"
+    },
+    {
+      "name": "Mobile menu contact action opens dialog",
+      "detail": "passed"
+    },
+    {
+      "name": "Short viewport / 200% equivalent reflow: contact options remain reachable",
+      "detail": "passed"
+    },
+    {
+      "name": "Reduced motion disables smooth scrolling",
+      "detail": "passed"
+    },
+    {
+      "name": "Rendered page makes no external network requests",
+      "detail": "passed"
+    },
+    {
+      "name": "Already-loaded page interaction works offline; no form falsely claims delivery",
+      "detail": "passed"
+    },
+    {
+      "name": "No browser runtime errors or failed HTTP responses",
+      "detail": "passed"
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

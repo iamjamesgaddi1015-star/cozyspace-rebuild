@@ -1,0 +1,731 @@
+{
+  "scriptCompleted": true,
+  "groups": {
+    "root": [
+      "document:DESIGN.md",
+      "document:MEDIA-GUIDE.md",
+      "document:README.md",
+      "file:Start CozySpace.cmd",
+      "document:TASKS.md",
+      "document:UX-CONTRACT.md",
+      "file:index.html",
+      "config:package.json",
+      "config:tsconfig.json"
+    ],
+    "inspection": [
+      "document:inspection/FINDINGS.md",
+      "document:inspection/REVAMP-REVIEW.md",
+      "document:inspection/REVIEW.md",
+      "file:inspection/fetch-assets.mjs",
+      "file:inspection/inspect-reference.mjs",
+      "file:inspection/qa-check.mjs",
+      "file:inspection/verify-local.mjs"
+    ],
+    "public": [
+      "file:public/fonts/fonts.css",
+      "document:public/media/README.md"
+    ],
+    "scripts": [
+      "file:scripts/build.mjs",
+      "file:scripts/capture.cjs",
+      "file:scripts/server-check.mjs",
+      "file:scripts/server.mjs",
+      "file:scripts/tooling.mjs",
+      "file:scripts/typecheck.mjs",
+      "file:scripts/verify.cjs"
+    ],
+    "src": [
+      "file:src/content.ts",
+      "file:src/icons.tsx",
+      "file:src/main.tsx",
+      "file:src/media.ts",
+      "file:src/revamp.css",
+      "file:src/styles.css"
+    ]
+  },
+  "byType": {
+    "document": [
+      "document:DESIGN.md",
+      "document:MEDIA-GUIDE.md",
+      "document:README.md",
+      "document:TASKS.md",
+      "document:UX-CONTRACT.md",
+      "document:inspection/FINDINGS.md",
+      "document:inspection/REVAMP-REVIEW.md",
+      "document:inspection/REVIEW.md",
+      "document:public/media/README.md"
+    ],
+    "file": [
+      "file:Start CozySpace.cmd",
+      "file:index.html",
+      "file:inspection/fetch-assets.mjs",
+      "file:inspection/inspect-reference.mjs",
+      "file:inspection/qa-check.mjs",
+      "file:inspection/verify-local.mjs",
+      "file:public/fonts/fonts.css",
+      "file:scripts/build.mjs",
+      "file:scripts/capture.cjs",
+      "file:scripts/server-check.mjs",
+      "file:scripts/server.mjs",
+      "file:scripts/tooling.mjs",
+      "file:scripts/typecheck.mjs",
+      "file:scripts/verify.cjs",
+      "file:src/content.ts",
+      "file:src/icons.tsx",
+      "file:src/main.tsx",
+      "file:src/media.ts",
+      "file:src/revamp.css",
+      "file:src/styles.css"
+    ],
+    "config": [
+      "config:package.json",
+      "config:tsconfig.json"
+    ]
+  },
+  "adjacency": {
+    "document:DESIGN.md": [],
+    "document:MEDIA-GUIDE.md": [],
+    "document:README.md": [],
+    "file:Start CozySpace.cmd": [],
+    "document:TASKS.md": [],
+    "document:UX-CONTRACT.md": [],
+    "file:index.html": [],
+    "document:inspection/FINDINGS.md": [],
+    "document:inspection/REVAMP-REVIEW.md": [],
+    "document:inspection/REVIEW.md": [],
+    "file:inspection/fetch-assets.mjs": [],
+    "file:inspection/inspect-reference.mjs": [],
+    "file:inspection/qa-check.mjs": [],
+    "file:inspection/verify-local.mjs": [],
+    "config:package.json": [],
+    "file:public/fonts/fonts.css": [],
+    "document:public/media/README.md": [],
+    "file:scripts/build.mjs": [
+      "scripts/tooling.mjs"
+    ],
+    "file:scripts/capture.cjs": [],
+    "file:scripts/server-check.mjs": [],
+    "file:scripts/server.mjs": [],
+    "file:scripts/tooling.mjs": [],
+    "file:scripts/typecheck.mjs": [
+      "scripts/tooling.mjs"
+    ],
+    "file:scripts/verify.cjs": [],
+    "file:src/content.ts": [
+      "src/media.ts"
+    ],
+    "file:src/icons.tsx": [],
+    "file:src/main.tsx": [
+      "src/content.ts",
+      "src/icons.tsx",
+      "src/media.ts",
+      "src/revamp.css",
+      "src/styles.css"
+    ],
+    "file:src/media.ts": [],
+    "file:src/revamp.css": [],
+    "file:src/styles.css": [],
+    "config:tsconfig.json": []
+  },
+  "crossCategory": {
+    "file->file:imports": 8,
+    "file->function:contains": 19,
+    "file->function:exports": 6,
+    "function->function:contains": 10,
+    "document->file:documents": 5,
+    "document->config:documents": 4,
+    "config->file:configures": 8
+  },
+  "interGroup": {
+    "src->src": 6,
+    "scripts->scripts": 2
+  },
+  "density": {
+    "src": {
+      "internal": 6,
+      "total": 6
+    },
+    "scripts": {
+      "internal": 2,
+      "total": 2
+    }
+  },
+  "fanInRanking": [
+    [
+      "config:package.json",
+      4
+    ],
+    [
+      "file:src/main.tsx",
+      4
+    ],
+    [
+      "file:src/media.ts",
+      3
+    ],
+    [
+      "file:scripts/tooling.mjs",
+      3
+    ],
+    [
+      "function:src/icons.tsx:ArrowDown",
+      2
+    ],
+    [
+      "function:src/icons.tsx:ArrowDownRight",
+      2
+    ],
+    [
+      "function:src/icons.tsx:ArrowUpRight",
+      2
+    ],
+    [
+      "function:src/icons.tsx:Menu",
+      2
+    ],
+    [
+      "function:src/icons.tsx:X",
+      2
+    ],
+    [
+      "function:src/icons.tsx:MessageCircle",
+      2
+    ],
+    [
+      "file:src/styles.css",
+      2
+    ],
+    [
+      "function:src/main.tsx:Header",
+      2
+    ],
+    [
+      "function:src/main.tsx:Hero",
+      2
+    ],
+    [
+      "function:src/main.tsx:Story",
+      2
+    ],
+    [
+      "function:src/main.tsx:SpaceChapter",
+      2
+    ],
+    [
+      "function:src/main.tsx:Services",
+      2
+    ],
+    [
+      "function:src/main.tsx:Philosophy",
+      2
+    ],
+    [
+      "function:src/main.tsx:Contact",
+      2
+    ],
+    [
+      "function:src/main.tsx:ContactDialog",
+      2
+    ],
+    [
+      "function:src/main.tsx:Footer",
+      2
+    ]
+  ],
+  "fanOutRanking": [
+    [
+      "file:src/main.tsx",
+      18
+    ],
+    [
+      "file:src/icons.tsx",
+      12
+    ],
+    [
+      "function:src/main.tsx:App",
+      9
+    ],
+    [
+      "config:package.json",
+      7
+    ],
+    [
+      "file:src/content.ts",
+      1
+    ],
+    [
+      "function:src/main.tsx:Services",
+      1
+    ],
+    [
+      "file:scripts/build.mjs",
+      1
+    ],
+    [
+      "file:scripts/typecheck.mjs",
+      1
+    ],
+    [
+      "document:DESIGN.md",
+      1
+    ],
+    [
+      "document:MEDIA-GUIDE.md",
+      1
+    ],
+    [
+      "document:README.md",
+      1
+    ],
+    [
+      "document:TASKS.md",
+      1
+    ],
+    [
+      "document:UX-CONTRACT.md",
+      1
+    ],
+    [
+      "config:tsconfig.json",
+      1
+    ],
+    [
+      "document:inspection/FINDINGS.md",
+      1
+    ],
+    [
+      "document:inspection/REVAMP-REVIEW.md",
+      1
+    ],
+    [
+      "document:inspection/REVIEW.md",
+      1
+    ],
+    [
+      "document:public/media/README.md",
+      1
+    ]
+  ],
+  "bfsTraversal": {
+    "startNode": "file:src/main.tsx",
+    "order": [
+      "file:src/main.tsx",
+      "file:src/content.ts",
+      "file:src/icons.tsx",
+      "file:src/media.ts",
+      "file:src/revamp.css",
+      "file:src/styles.css"
+    ],
+    "depthMap": {
+      "file:src/main.tsx": 0,
+      "file:src/content.ts": 1,
+      "file:src/icons.tsx": 1,
+      "file:src/media.ts": 1,
+      "file:src/revamp.css": 1,
+      "file:src/styles.css": 1
+    }
+  },
+  "entryPointCandidates": [
+    "document:README.md",
+    "file:src/main.tsx",
+    "file:scripts/server.mjs"
+  ],
+  "nodeSummaryIndex": {
+    "file:src/content.ts": {
+      "summary": "Defines the Space type, public brand/contact metadata and seven ordered room/service records derived from the media map.",
+      "type": "file",
+      "name": "content.ts"
+    },
+    "file:src/icons.tsx": {
+      "summary": "Implements the shared SVG wrapper and six reusable icons without an external icon dependency.",
+      "type": "file",
+      "name": "icons.tsx"
+    },
+    "function:src/icons.tsx:ArrowDown": {
+      "summary": "Renders a downward arrow SVG.",
+      "type": "function",
+      "name": "ArrowDown"
+    },
+    "function:src/icons.tsx:ArrowDownRight": {
+      "summary": "Renders a diagonal down-right arrow SVG.",
+      "type": "function",
+      "name": "ArrowDownRight"
+    },
+    "function:src/icons.tsx:ArrowUpRight": {
+      "summary": "Renders a diagonal up-right arrow SVG.",
+      "type": "function",
+      "name": "ArrowUpRight"
+    },
+    "function:src/icons.tsx:Menu": {
+      "summary": "Renders the hamburger navigation SVG.",
+      "type": "function",
+      "name": "Menu"
+    },
+    "function:src/icons.tsx:X": {
+      "summary": "Renders a close SVG.",
+      "type": "function",
+      "name": "X"
+    },
+    "function:src/icons.tsx:MessageCircle": {
+      "summary": "Renders the contact speech-bubble SVG.",
+      "type": "function",
+      "name": "MessageCircle"
+    },
+    "file:src/main.tsx": {
+      "summary": "Mounts the React app and defines navigation, hero selectors, room chapters, contact dialog and keyboard-accessible full-size photo viewer.",
+      "type": "file",
+      "name": "main.tsx"
+    },
+    "function:src/main.tsx:Eyebrow": {
+      "summary": "Renders a short eyebrow label and decorative marker.",
+      "type": "function",
+      "name": "Eyebrow"
+    },
+    "function:src/main.tsx:SectionLabel": {
+      "summary": "Renders the reusable section label; the index prop is accepted but not displayed.",
+      "type": "function",
+      "name": "SectionLabel"
+    },
+    "function:src/main.tsx:Header": {
+      "summary": "Owns mobile menu state and closes it on selection, Escape, outside pointer events or a desktop breakpoint.",
+      "type": "function",
+      "name": "Header"
+    },
+    "function:src/main.tsx:Hero": {
+      "summary": "Owns the selected room photo index and renders all seven named selectors with pressed state.",
+      "type": "function",
+      "name": "Hero"
+    },
+    "function:src/main.tsx:Story": {
+      "summary": "Renders the introductory home-organization narrative.",
+      "type": "function",
+      "name": "Story"
+    },
+    "function:src/main.tsx:SpaceChapter": {
+      "summary": "Renders one room image, description, next-room anchor, photo action and shared inquiry action.",
+      "type": "function",
+      "name": "SpaceChapter"
+    },
+    "function:src/main.tsx:Services": {
+      "summary": "Renders the direct room index and maps all room records into chapter components.",
+      "type": "function",
+      "name": "Services"
+    },
+    "function:src/main.tsx:Philosophy": {
+      "summary": "Renders approach principles and the shared contact action.",
+      "type": "function",
+      "name": "Philosophy"
+    },
+    "function:src/main.tsx:Contact": {
+      "summary": "Renders the final photographic contact call-to-action using configured media.",
+      "type": "function",
+      "name": "Contact"
+    },
+    "function:src/main.tsx:ContactDialog": {
+      "summary": "Renders WhatsApp options in a native dialog and wraps Tab focus while handling backdrop dismissal.",
+      "type": "function",
+      "name": "ContactDialog"
+    },
+    "function:src/main.tsx:Footer": {
+      "summary": "Renders brand, Instagram and public WhatsApp links without automatically opening or sending messages.",
+      "type": "function",
+      "name": "Footer"
+    },
+    "function:src/main.tsx:PhotoGallery": {
+      "summary": "Opens a native modal for the selected room; wraps next/previous indices, handles arrows/Escape/Tab, locks scroll and restores trigger focus.",
+      "type": "function",
+      "name": "PhotoGallery"
+    },
+    "function:src/main.tsx:App": {
+      "summary": "Owns contact-dialog ref and selected gallery index; composes all page sections and mounts the dialogs.",
+      "type": "function",
+      "name": "App"
+    },
+    "file:src/media.ts": {
+      "summary": "Centralizes local room/contact image URLs and alternative text so all image consumers share one configuration.",
+      "type": "file",
+      "name": "media.ts"
+    },
+    "file:scripts/build.mjs": {
+      "summary": "Copies public assets, bundles src/main.tsx into minified production JS/CSS with existing esbuild, and rewrites the HTML entry to dist assets.",
+      "type": "file",
+      "name": "build.mjs"
+    },
+    "file:scripts/tooling.mjs": {
+      "summary": "Finds a complete local or sibling solution-doc-chat toolchain and exposes a createRequire resolver without downloading packages.",
+      "type": "file",
+      "name": "tooling.mjs"
+    },
+    "file:scripts/typecheck.mjs": {
+      "summary": "Loads the TypeScript configuration, resolves existing React types and reports compiler diagnostics without bundling.",
+      "type": "file",
+      "name": "typecheck.mjs"
+    },
+    "document:DESIGN.md": {
+      "summary": "Records brand direction, typography, colors, layout and accessibility decisions that guide the rendered site.",
+      "type": "document",
+      "name": "DESIGN.md"
+    },
+    "document:MEDIA-GUIDE.md": {
+      "summary": "Explains replaceable local image/video slots, file locations, recommended dimensions and rebuild steps.",
+      "type": "document",
+      "name": "MEDIA-GUIDE.md"
+    },
+    "document:README.md": {
+      "summary": "Explains local startup, editable source boundaries, integration limitations, verification commands and recovery.",
+      "type": "document",
+      "name": "README.md"
+    },
+    "file:Start CozySpace.cmd": {
+      "summary": "Starts the local preview server from the project directory using Node; does not install packages.",
+      "type": "file",
+      "name": "Start CozySpace.cmd"
+    },
+    "document:TASKS.md": {
+      "summary": "Records task history, completed changes and remaining limitations; these historical checks are not rerun by this analysis.",
+      "type": "document",
+      "name": "TASKS.md"
+    },
+    "document:UX-CONTRACT.md": {
+      "summary": "Defines canonical owners and consistent navigation, form, feedback, media and accessibility behavior.",
+      "type": "document",
+      "name": "UX-CONTRACT.md"
+    },
+    "file:index.html": {
+      "summary": "Provides document metadata and the root DOM mount used by the React browser entry point.",
+      "type": "file",
+      "name": "index.html"
+    },
+    "config:package.json": {
+      "summary": "Defines Node runtime requirements and the documented startup/build/check commands; no application execution is performed here.",
+      "type": "config",
+      "name": "package.json"
+    },
+    "config:tsconfig.json": {
+      "summary": "Configures strict TypeScript and JSX compilation for the React source.",
+      "type": "config",
+      "name": "tsconfig.json"
+    },
+    "document:inspection/FINDINGS.md": {
+      "summary": "Records public-reference inspection findings, implementation decisions, evidence limitations and historical recovery notes.",
+      "type": "document",
+      "name": "FINDINGS.md"
+    },
+    "document:inspection/REVAMP-REVIEW.md": {
+      "summary": "Records October 29 revamp changes, historical browser/build evidence, tooling reuse, open review gates and rollback.",
+      "type": "document",
+      "name": "REVAMP-REVIEW.md"
+    },
+    "document:inspection/REVIEW.md": {
+      "summary": "Records historical local reconstruction checks and the scope those checks did not establish.",
+      "type": "document",
+      "name": "REVIEW.md"
+    },
+    "file:inspection/fetch-assets.mjs": {
+      "summary": "Downloads public reference assets into the local project; not executed during analysis because it accesses the network.",
+      "type": "file",
+      "name": "fetch-assets.mjs"
+    },
+    "file:inspection/inspect-reference.mjs": {
+      "summary": "Uses browser automation to inspect the public reference and save visual/DOM observations; not run here.",
+      "type": "file",
+      "name": "inspect-reference.mjs"
+    },
+    "file:inspection/qa-check.mjs": {
+      "summary": "Contains local browser QA assertions for the reconstruction; source was analyzed without launching a browser.",
+      "type": "file",
+      "name": "qa-check.mjs"
+    },
+    "file:inspection/verify-local.mjs": {
+      "summary": "Checks local rendered structure, keyboard behavior, responsive views and media using browser automation.",
+      "type": "file",
+      "name": "verify-local.mjs"
+    },
+    "file:public/fonts/fonts.css": {
+      "summary": "Declares locally served Manrope and Libre Caslon Display font faces and weights.",
+      "type": "file",
+      "name": "fonts.css"
+    },
+    "document:public/media/README.md": {
+      "summary": "Documents where licensed replacement media belongs and how browser URLs map to the public directory.",
+      "type": "document",
+      "name": "README.md"
+    },
+    "file:scripts/capture.cjs": {
+      "summary": "Captures local preview screenshots using the sibling Playwright installation.",
+      "type": "file",
+      "name": "capture.cjs"
+    },
+    "file:scripts/server-check.mjs": {
+      "summary": "Creates synthetic loopback servers to verify a busy unrelated port is preserved and preview moves to the next port.",
+      "type": "file",
+      "name": "server-check.mjs"
+    },
+    "file:scripts/server.mjs": {
+      "summary": "Serves the existing dist build on loopback port 5175 by default, builds only if missing, checks its preview marker and retries occupied ports.",
+      "type": "file",
+      "name": "server.mjs"
+    },
+    "file:scripts/verify.cjs": {
+      "summary": "Exercises seven room selectors, anchors, photo dialog keyboard/focus behavior, contacts, responsive layouts and offline interactions.",
+      "type": "file",
+      "name": "verify.cjs"
+    },
+    "file:src/revamp.css": {
+      "summary": "Overrides the base styles for the named room selectors, direct index, clearer chapters and full-size photo dialog.",
+      "type": "file",
+      "name": "revamp.css"
+    },
+    "file:src/styles.css": {
+      "summary": "Defines the base palette, typography, photographic page sections, responsive layouts, focus states and reduced-motion behavior.",
+      "type": "file",
+      "name": "styles.css"
+    }
+  },
+  "clusters": [],
+  "nonCodeInventory": [
+    {
+      "id": "document:DESIGN.md",
+      "type": "document",
+      "name": "DESIGN.md",
+      "filePath": "DESIGN.md",
+      "summary": "Records brand direction, typography, colors, layout and accessibility decisions that guide the rendered site.",
+      "tags": [
+        "docs",
+        "markdown",
+        "project-context"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:MEDIA-GUIDE.md",
+      "type": "document",
+      "name": "MEDIA-GUIDE.md",
+      "filePath": "MEDIA-GUIDE.md",
+      "summary": "Explains replaceable local image/video slots, file locations, recommended dimensions and rebuild steps.",
+      "tags": [
+        "docs",
+        "markdown",
+        "project-context"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "Explains local startup, editable source boundaries, integration limitations, verification commands and recovery.",
+      "tags": [
+        "docs",
+        "markdown",
+        "project-context"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:TASKS.md",
+      "type": "document",
+      "name": "TASKS.md",
+      "filePath": "TASKS.md",
+      "summary": "Records task history, completed changes and remaining limitations; these historical checks are not rerun by this analysis.",
+      "tags": [
+        "docs",
+        "markdown",
+        "project-context"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:UX-CONTRACT.md",
+      "type": "document",
+      "name": "UX-CONTRACT.md",
+      "filePath": "UX-CONTRACT.md",
+      "summary": "Defines canonical owners and consistent navigation, form, feedback, media and accessibility behavior.",
+      "tags": [
+        "docs",
+        "markdown",
+        "project-context"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "package.json",
+      "summary": "Defines Node runtime requirements and the documented startup/build/check commands; no application execution is performed here.",
+      "tags": [
+        "config",
+        "json",
+        "project-context"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "tsconfig.json",
+      "summary": "Configures strict TypeScript and JSX compilation for the React source.",
+      "tags": [
+        "config",
+        "json",
+        "project-context"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:inspection/FINDINGS.md",
+      "type": "document",
+      "name": "FINDINGS.md",
+      "filePath": "inspection/FINDINGS.md",
+      "summary": "Records public-reference inspection findings, implementation decisions, evidence limitations and historical recovery notes.",
+      "tags": [
+        "docs",
+        "markdown",
+        "project-context"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:inspection/REVAMP-REVIEW.md",
+      "type": "document",
+      "name": "REVAMP-REVIEW.md",
+      "filePath": "inspection/REVAMP-REVIEW.md",
+      "summary": "Records October 29 revamp changes, historical browser/build evidence, tooling reuse, open review gates and rollback.",
+      "tags": [
+        "docs",
+        "markdown",
+        "project-context"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:inspection/REVIEW.md",
+      "type": "document",
+      "name": "REVIEW.md",
+      "filePath": "inspection/REVIEW.md",
+      "summary": "Records historical local reconstruction checks and the scope those checks did not establish.",
+      "tags": [
+        "docs",
+        "markdown",
+        "project-context"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:public/media/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "public/media/README.md",
+      "summary": "Documents where licensed replacement media belongs and how browser URLs map to the public directory.",
+      "tags": [
+        "docs",
+        "markdown",
+        "project-context"
+      ],
+      "complexity": "simple"
+    }
+  ]
+}

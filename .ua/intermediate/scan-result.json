@@ -1,0 +1,277 @@
+{
+  "scriptCompleted": true,
+  "contentDigest": "92a17228e97fea738195a33a62f486183d6d8b51da921d7aa1c5ee54377234e5",
+  "files": [
+    {
+      "path": "DESIGN.md",
+      "language": "markdown",
+      "sizeLines": 101,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "MEDIA-GUIDE.md",
+      "language": "markdown",
+      "sizeLines": 36,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "sizeLines": 74,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "Start CozySpace.cmd",
+      "language": "batch",
+      "sizeLines": 6,
+      "fileCategory": "script"
+    },
+    {
+      "path": "TASKS.md",
+      "language": "markdown",
+      "sizeLines": 17,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "UX-CONTRACT.md",
+      "language": "markdown",
+      "sizeLines": 16,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "index.html",
+      "language": "html",
+      "sizeLines": 18,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "inspection/FINDINGS.md",
+      "language": "markdown",
+      "sizeLines": 25,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "inspection/REVAMP-REVIEW.md",
+      "language": "markdown",
+      "sizeLines": 45,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "inspection/REVIEW.md",
+      "language": "markdown",
+      "sizeLines": 25,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "inspection/fetch-assets.mjs",
+      "language": "javascript",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "inspection/inspect-reference.mjs",
+      "language": "javascript",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "inspection/qa-check.mjs",
+      "language": "javascript",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "inspection/verify-local.mjs",
+      "language": "javascript",
+      "sizeLines": 121,
+      "fileCategory": "code"
+    },
+    {
+      "path": "package.json",
+      "language": "json",
+      "sizeLines": 26,
+      "fileCategory": "config"
+    },
+    {
+      "path": "public/fonts/fonts.css",
+      "language": "css",
+      "sizeLines": 42,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "public/media/README.md",
+      "language": "markdown",
+      "sizeLines": 7,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/capture.cjs",
+      "language": "javascript",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/server-check.mjs",
+      "language": "javascript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/server.mjs",
+      "language": "javascript",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/tooling.mjs",
+      "language": "javascript",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/typecheck.mjs",
+      "language": "javascript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/verify.cjs",
+      "language": "javascript",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/content.ts",
+      "language": "typescript",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/icons.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/main.tsx",
+      "language": "typescript",
+      "sizeLines": 203,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/media.ts",
+      "language": "typescript",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/revamp.css",
+      "language": "css",
+      "sizeLines": 63,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/styles.css",
+      "language": "css",
+      "sizeLines": 261,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "tsconfig.json",
+      "language": "json",
+      "sizeLines": 15,
+      "fileCategory": "config"
+    }
+  ],
+  "totalFiles": 31,
+  "filteredByIgnore": 8,
+  "estimatedComplexity": "moderate",
+  "failures": [],
+  "stats": {
+    "filesScanned": 31,
+    "byCategory": {
+      "docs": 9,
+      "script": 1,
+      "markup": 4,
+      "code": 15,
+      "config": 2
+    },
+    "byLanguage": {
+      "markdown": 9,
+      "batch": 1,
+      "html": 1,
+      "javascript": 11,
+      "json": 2,
+      "css": 3,
+      "typescript": 4
+    }
+  },
+  "projectName": "cozyspace-rebuild",
+  "name": "cozyspace-rebuild",
+  "description": "A React and TypeScript single-page reconstruction of a home organization service website, with local room photography, accessible dialogs and contact links.",
+  "frameworks": [
+    "React",
+    "TypeScript",
+    "esbuild"
+  ],
+  "languages": [
+    "markdown",
+    "batch",
+    "html",
+    "javascript",
+    "json",
+    "css",
+    "typescript"
+  ],
+  "importMap": {
+    "DESIGN.md": [],
+    "MEDIA-GUIDE.md": [],
+    "README.md": [],
+    "Start CozySpace.cmd": [],
+    "TASKS.md": [],
+    "UX-CONTRACT.md": [],
+    "index.html": [],
+    "inspection/FINDINGS.md": [],
+    "inspection/REVAMP-REVIEW.md": [],
+    "inspection/REVIEW.md": [],
+    "inspection/fetch-assets.mjs": [],
+    "inspection/inspect-reference.mjs": [],
+    "inspection/qa-check.mjs": [],
+    "inspection/verify-local.mjs": [],
+    "package.json": [],
+    "public/fonts/fonts.css": [],
+    "public/media/README.md": [],
+    "scripts/build.mjs": [
+      "scripts/tooling.mjs"
+    ],
+    "scripts/capture.cjs": [],
+    "scripts/server-check.mjs": [],
+    "scripts/server.mjs": [],
+    "scripts/tooling.mjs": [],
+    "scripts/typecheck.mjs": [
+      "scripts/tooling.mjs"
+    ],
+    "scripts/verify.cjs": [],
+    "src/content.ts": [
+      "src/media.ts"
+    ],
+    "src/icons.tsx": [],
+    "src/main.tsx": [
+      "src/content.ts",
+      "src/icons.tsx",
+      "src/media.ts",
+      "src/revamp.css",
+      "src/styles.css"
+    ],
+    "src/media.ts": [],
+    "src/revamp.css": [],
+    "src/styles.css": [],
+    "tsconfig.json": []
+  }
+}

@@ -1,0 +1,63 @@
+.hero-selector {gap:12px;align-items:flex-end;bottom:32px}
+.hero-selector button {width:68px;height:auto;min-height:60px;text-align:left;opacity:.65;transition:opacity 150ms ease-out}
+.hero-selector button img {width:68px;height:44px;object-fit:cover;border:1px solid transparent;padding:2px}
+.hero-selector button span {font-size:13px;display:block;border:0;padding:5px 0 0;line-height:1.2}
+.hero-selector button[aria-pressed=true],.hero-selector button:hover {opacity:1}
+.hero-selector button[aria-pressed=true] img {border-color:var(--cream)}
+.hero-selector button:hover span,.hero-selector button[aria-pressed=true] span {border:0}
+.room-selector-label {position:absolute;bottom:calc(100% + 15px);right:0;font-size:13px;color:var(--cream);white-space:nowrap;letter-spacing:.02em}
+.room-selector-label span {color:var(--ochre);margin-left:8px}
+.header-nav a,.header-contact {font-size:13px}
+.section-label {font-size:13px;font-weight:600;letter-spacing:0;text-transform:none;color:var(--copper)}
+.room-index {display:flex;flex-wrap:wrap;gap:12px 30px;padding:0 0 20px;margin-bottom:45px}
+.room-index a {display:flex;align-items:center;gap:16px;min-height:44px;font-size:14px;color:var(--muted)}
+.room-index a:hover {color:var(--ink)}
+.photo-open {position:absolute;right:20px;top:20px;display:flex;align-items:center;gap:8px;background:var(--paper);color:var(--wood);min-height:44px;padding:10px 15px;font-size:12px;font-weight:600}
+.photo-open:hover {background:var(--cream)}
+.scene-enquire {display:flex;align-items:center;justify-content:space-between;max-width:230px;gap:18px;min-height:44px;font-size:13px;font-weight:600;color:var(--copper)}
+.scene-enquire:hover {color:var(--ink)}
+.scene-copy-main>p {font-size:16px;line-height:1.85;color:var(--ink)}
+.scene-detail {font-size:13px;line-height:1.8}
+.scene-kicker {font-size:13px;letter-spacing:.04em}
+.photo-corner,.scene-dash,.philosophy-watermark {display:none}
+.scenes-list {gap:40px}
+.scene-next {font-size:13px}
+.intro-bottom p,.philosophy-body>p {font-size:16px;line-height:1.85}
+.principles {border:0}
+.principles li {font-size:15px;border:0;padding:14px 0}
+.footer-description,.footer-links,.dialog-note {font-size:13px}
+.photo-dialog {padding:24px;border:0;background:var(--paper);color:var(--ink);width:min(1120px,calc(100% - 48px));max-height:calc(100svh - 48px);overflow:auto}
+.photo-dialog::backdrop {background:#241d17e6}
+.photo-dialog-heading {display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:20px}
+.photo-dialog-heading p {font-size:12px;color:var(--muted);margin-bottom:6px}
+.photo-dialog-heading h2 {font-size:30px;font-weight:500;letter-spacing:-.04em}
+.gallery-close {display:grid;place-items:center;width:44px;height:44px;flex-shrink:0}
+.gallery-close:hover {background:var(--sand)}
+.gallery-image {width:100%;max-height:65svh;object-fit:contain;background:var(--sand)}
+.gallery-controls {display:flex;align-items:center;justify-content:space-between;gap:15px;margin-top:15px;font-size:13px}
+.gallery-controls button {min-height:44px;padding:8px 12px}
+.gallery-controls button:hover {background:var(--sand)}
+@media(min-width:801px) and (max-width:1100px){.hero-scroll>span{display:none}.hero-scroll{width:44px;justify-content:center}.hero-selector{gap:8px}.hero-selector button{width:60px}.hero-selector button img{width:60px;height:40px}}
+@media(max-width:800px){
+ .hero-selector {right:24px;bottom:28px;gap:7px;width:auto}
+ .hero-selector button {width:34px;min-height:44px}
+ .hero-selector button img {width:34px;height:27px;padding:2px}
+ .hero-selector button span {display:none}
+ .room-selector-label {bottom:calc(100% + 7px);font-size:11px}
+ .hero-scroll .scroll-line {display:none}
+ .room-index {gap:2px 20px;margin-bottom:28px;padding:0 8px 20px}
+ .room-index a {font-size:13px;gap:8px}
+ .scene-copy-main>p {font-size:15px;line-height:1.85}
+ .scene-kicker {font-size:12px}
+ .photo-open {right:14px;top:14px;padding:8px 12px}
+ .scenes-list {gap:28px}
+ .photo-dialog {width:calc(100% - 24px);max-height:calc(100svh - 24px);padding:16px}
+ .photo-dialog-heading h2 {font-size:25px}
+ .photo-dialog-heading p {font-size:11px}
+ .gallery-image {max-height:60svh}
+ .gallery-controls {gap:6px;font-size:12px}
+ .gallery-controls button {padding:8px}
+ .intro-bottom p,.philosophy-body>p {font-size:15px}
+}
+@media(max-width:350px){.hero-selector{gap:5px}.hero-selector button{width:30px}.hero-selector button img{width:30px;height:25px}}
+@media(prefers-reduced-motion:reduce){.hero-selector button{transition:none}}

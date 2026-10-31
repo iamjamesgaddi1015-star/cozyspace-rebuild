@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "id": "file:scripts/build.mjs",
+      "type": "file",
+      "name": "build.mjs",
+      "filePath": "scripts/build.mjs",
+      "summary": "Copies public assets, bundles src/main.tsx into minified production JS/CSS with existing esbuild, and rewrites the HTML entry to dist assets.",
+      "tags": [
+        "code",
+        "javascript",
+        "tooling"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/tooling.mjs",
+      "type": "file",
+      "name": "tooling.mjs",
+      "filePath": "scripts/tooling.mjs",
+      "summary": "Finds a complete local or sibling solution-doc-chat toolchain and exposes a createRequire resolver without downloading packages.",
+      "tags": [
+        "code",
+        "javascript",
+        "tooling"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/typecheck.mjs",
+      "type": "file",
+      "name": "typecheck.mjs",
+      "filePath": "scripts/typecheck.mjs",
+      "summary": "Loads the TypeScript configuration, resolves existing React types and reports compiler diagnostics without bundling.",
+      "tags": [
+        "code",
+        "javascript",
+        "verification"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:scripts/build.mjs",
+      "target": "file:scripts/tooling.mjs",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:scripts/typecheck.mjs",
+      "target": "file:scripts/tooling.mjs",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "file:scripts/typecheck.mjs",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.6,
+      "description": "Static association to a test/check script; does not mean the script was run."
+    }
+  ]
+}

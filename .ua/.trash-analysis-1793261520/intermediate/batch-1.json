@@ -1,0 +1,678 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/content.ts",
+      "type": "file",
+      "name": "content.ts",
+      "filePath": "src/content.ts",
+      "summary": "Defines the Space type, public brand/contact metadata and seven ordered room/service records derived from the media map.",
+      "tags": [
+        "code",
+        "typescript",
+        "application"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/icons.tsx",
+      "type": "file",
+      "name": "icons.tsx",
+      "filePath": "src/icons.tsx",
+      "summary": "Implements the shared SVG wrapper and six reusable icons without an external icon dependency.",
+      "tags": [
+        "code",
+        "typescript",
+        "application"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/icons.tsx:ArrowDown",
+      "type": "function",
+      "name": "ArrowDown",
+      "filePath": "src/icons.tsx",
+      "lineRange": [
+        4,
+        4
+      ],
+      "summary": "Renders a downward arrow SVG.",
+      "tags": [
+        "typescript",
+        "function",
+        "implementation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/icons.tsx:ArrowDownRight",
+      "type": "function",
+      "name": "ArrowDownRight",
+      "filePath": "src/icons.tsx",
+      "lineRange": [
+        5,
+        5
+      ],
+      "summary": "Renders a diagonal down-right arrow SVG.",
+      "tags": [
+        "typescript",
+        "function",
+        "implementation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/icons.tsx:ArrowUpRight",
+      "type": "function",
+      "name": "ArrowUpRight",
+      "filePath": "src/icons.tsx",
+      "lineRange": [
+        6,
+        6
+      ],
+      "summary": "Renders a diagonal up-right arrow SVG.",
+      "tags": [
+        "typescript",
+        "function",
+        "implementation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/icons.tsx:Menu",
+      "type": "function",
+      "name": "Menu",
+      "filePath": "src/icons.tsx",
+      "lineRange": [
+        7,
+        7
+      ],
+      "summary": "Renders the hamburger navigation SVG.",
+      "tags": [
+        "typescript",
+        "function",
+        "implementation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/icons.tsx:X",
+      "type": "function",
+      "name": "X",
+      "filePath": "src/icons.tsx",
+      "lineRange": [
+        8,
+        8
+      ],
+      "summary": "Renders a close SVG.",
+      "tags": [
+        "typescript",
+        "function",
+        "implementation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/icons.tsx:MessageCircle",
+      "type": "function",
+      "name": "MessageCircle",
+      "filePath": "src/icons.tsx",
+      "lineRange": [
+        9,
+        9
+      ],
+      "summary": "Renders the contact speech-bubble SVG.",
+      "tags": [
+        "typescript",
+        "function",
+        "implementation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/main.tsx",
+      "type": "file",
+      "name": "main.tsx",
+      "filePath": "src/main.tsx",
+      "summary": "Mounts the React app and defines navigation, hero selectors, room chapters, contact dialog and keyboard-accessible full-size photo viewer.",
+      "tags": [
+        "code",
+        "typescript",
+        "application"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/main.tsx:Eyebrow",
+      "type": "function",
+      "name": "Eyebrow",
+      "filePath": "src/main.tsx",
+      "lineRange": [
+        15,
+        17
+      ],
+      "summary": "Renders a short eyebrow label and decorative marker.",
+      "tags": [
+        "typescript",
+        "function",
+        "react-component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/main.tsx:SectionLabel",
+      "type": "function",
+      "name": "SectionLabel",
+      "filePath": "src/main.tsx",
+      "lineRange": [
+        19,
+        21
+      ],
+      "summary": "Renders the reusable section label; the index prop is accepted but not displayed.",
+      "tags": [
+        "typescript",
+        "function",
+        "react-component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/main.tsx:Header",
+      "type": "function",
+      "name": "Header",
+      "filePath": "src/main.tsx",
+      "lineRange": [
+        23,
+        50
+      ],
+      "summary": "Owns mobile menu state and closes it on selection, Escape, outside pointer events or a desktop breakpoint.",
+      "tags": [
+        "typescript",
+        "function",
+        "react-component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/main.tsx:Hero",
+      "type": "function",
+      "name": "Hero",
+      "filePath": "src/main.tsx",
+      "lineRange": [
+        52,
+        70
+      ],
+      "summary": "Owns the selected room photo index and renders all seven named selectors with pressed state.",
+      "tags": [
+        "typescript",
+        "function",
+        "react-component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/main.tsx:Story",
+      "type": "function",
+      "name": "Story",
+      "filePath": "src/main.tsx",
+      "lineRange": [
+        72,
+        81
+      ],
+      "summary": "Renders the introductory home-organization narrative.",
+      "tags": [
+        "typescript",
+        "function",
+        "react-component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/main.tsx:SpaceChapter",
+      "type": "function",
+      "name": "SpaceChapter",
+      "filePath": "src/main.tsx",
+      "lineRange": [
+        83,
+        105
+      ],
+      "summary": "Renders one room image, description, next-room anchor, photo action and shared inquiry action.",
+      "tags": [
+        "typescript",
+        "function",
+        "react-component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/main.tsx:Services",
+      "type": "function",
+      "name": "Services",
+      "filePath": "src/main.tsx",
+      "lineRange": [
+        107,
+        117
+      ],
+      "summary": "Renders the direct room index and maps all room records into chapter components.",
+      "tags": [
+        "typescript",
+        "function",
+        "react-component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/main.tsx:Philosophy",
+      "type": "function",
+      "name": "Philosophy",
+      "filePath": "src/main.tsx",
+      "lineRange": [
+        119,
+        132
+      ],
+      "summary": "Renders approach principles and the shared contact action.",
+      "tags": [
+        "typescript",
+        "function",
+        "react-component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/main.tsx:Contact",
+      "type": "function",
+      "name": "Contact",
+      "filePath": "src/main.tsx",
+      "lineRange": [
+        134,
+        145
+      ],
+      "summary": "Renders the final photographic contact call-to-action using configured media.",
+      "tags": [
+        "typescript",
+        "function",
+        "react-component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/main.tsx:ContactDialog",
+      "type": "function",
+      "name": "ContactDialog",
+      "filePath": "src/main.tsx",
+      "lineRange": [
+        147,
+        168
+      ],
+      "summary": "Renders WhatsApp options in a native dialog and wraps Tab focus while handling backdrop dismissal.",
+      "tags": [
+        "typescript",
+        "function",
+        "react-component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/main.tsx:Footer",
+      "type": "function",
+      "name": "Footer",
+      "filePath": "src/main.tsx",
+      "lineRange": [
+        170,
+        176
+      ],
+      "summary": "Renders brand, Instagram and public WhatsApp links without automatically opening or sending messages.",
+      "tags": [
+        "typescript",
+        "function",
+        "react-component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/main.tsx:PhotoGallery",
+      "type": "function",
+      "name": "PhotoGallery",
+      "filePath": "src/main.tsx",
+      "lineRange": [
+        178,
+        187
+      ],
+      "summary": "Opens a native modal for the selected room; wraps next/previous indices, handles arrows/Escape/Tab, locks scroll and restores trigger focus.",
+      "tags": [
+        "typescript",
+        "function",
+        "react-component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/main.tsx:App",
+      "type": "function",
+      "name": "App",
+      "filePath": "src/main.tsx",
+      "lineRange": [
+        189,
+        201
+      ],
+      "summary": "Owns contact-dialog ref and selected gallery index; composes all page sections and mounts the dialogs.",
+      "tags": [
+        "typescript",
+        "function",
+        "react-component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/media.ts",
+      "type": "file",
+      "name": "media.ts",
+      "filePath": "src/media.ts",
+      "summary": "Centralizes local room/contact image URLs and alternative text so all image consumers share one configuration.",
+      "tags": [
+        "code",
+        "typescript",
+        "application"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/content.ts",
+      "target": "file:src/media.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/icons.tsx",
+      "target": "function:src/icons.tsx:ArrowDown",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/icons.tsx",
+      "target": "function:src/icons.tsx:ArrowDown",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/icons.tsx",
+      "target": "function:src/icons.tsx:ArrowDownRight",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/icons.tsx",
+      "target": "function:src/icons.tsx:ArrowDownRight",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/icons.tsx",
+      "target": "function:src/icons.tsx:ArrowUpRight",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/icons.tsx",
+      "target": "function:src/icons.tsx:ArrowUpRight",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/icons.tsx",
+      "target": "function:src/icons.tsx:Menu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/icons.tsx",
+      "target": "function:src/icons.tsx:Menu",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/icons.tsx",
+      "target": "function:src/icons.tsx:X",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/icons.tsx",
+      "target": "function:src/icons.tsx:X",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/icons.tsx",
+      "target": "function:src/icons.tsx:MessageCircle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/icons.tsx",
+      "target": "function:src/icons.tsx:MessageCircle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "file:src/content.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "file:src/icons.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "file:src/media.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "file:src/revamp.css",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "file:src/styles.css",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "function:src/main.tsx:Eyebrow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "function:src/main.tsx:SectionLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "function:src/main.tsx:Header",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "function:src/main.tsx:Hero",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "function:src/main.tsx:Story",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "function:src/main.tsx:SpaceChapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "function:src/main.tsx:Services",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "function:src/main.tsx:Philosophy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "function:src/main.tsx:Contact",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "function:src/main.tsx:ContactDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "function:src/main.tsx:Footer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "function:src/main.tsx:PhotoGallery",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "function:src/main.tsx:App",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:src/main.tsx:App",
+      "target": "function:src/main.tsx:Header",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1,
+      "description": "Parent React component renders child component."
+    },
+    {
+      "source": "function:src/main.tsx:App",
+      "target": "function:src/main.tsx:Hero",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1,
+      "description": "Parent React component renders child component."
+    },
+    {
+      "source": "function:src/main.tsx:App",
+      "target": "function:src/main.tsx:Story",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1,
+      "description": "Parent React component renders child component."
+    },
+    {
+      "source": "function:src/main.tsx:App",
+      "target": "function:src/main.tsx:Services",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1,
+      "description": "Parent React component renders child component."
+    },
+    {
+      "source": "function:src/main.tsx:App",
+      "target": "function:src/main.tsx:Philosophy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1,
+      "description": "Parent React component renders child component."
+    },
+    {
+      "source": "function:src/main.tsx:App",
+      "target": "function:src/main.tsx:Contact",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1,
+      "description": "Parent React component renders child component."
+    },
+    {
+      "source": "function:src/main.tsx:App",
+      "target": "function:src/main.tsx:Footer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1,
+      "description": "Parent React component renders child component."
+    },
+    {
+      "source": "function:src/main.tsx:App",
+      "target": "function:src/main.tsx:ContactDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1,
+      "description": "Parent React component renders child component."
+    },
+    {
+      "source": "function:src/main.tsx:App",
+      "target": "function:src/main.tsx:PhotoGallery",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1,
+      "description": "Parent React component renders child component."
+    },
+    {
+      "source": "function:src/main.tsx:Services",
+      "target": "function:src/main.tsx:SpaceChapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1,
+      "description": "Parent React component renders child component."
+    }
+  ]
+}

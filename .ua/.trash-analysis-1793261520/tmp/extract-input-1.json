@@ -1,0 +1,43 @@
+{
+  "projectRoot": "C:\\Users\\222170\\Documents\\James-Workspace\\04-Personal-Projects\\cozyspace-rebuild",
+  "batchFiles": [
+    {
+      "path": "src/content.ts",
+      "language": "typescript",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/icons.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/main.tsx",
+      "language": "typescript",
+      "sizeLines": 203,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/media.ts",
+      "language": "typescript",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/content.ts": [
+      "src/media.ts"
+    ],
+    "src/icons.tsx": [],
+    "src/main.tsx": [
+      "src/content.ts",
+      "src/icons.tsx",
+      "src/media.ts",
+      "src/revamp.css",
+      "src/styles.css"
+    ],
+    "src/media.ts": []
+  }
+}

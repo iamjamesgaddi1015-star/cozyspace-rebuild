@@ -1,0 +1,59 @@
+[
+  {
+    "order": 1,
+    "title": "Project overview",
+    "description": "Read the scope and local-run instructions first. This is a client-only marketing reconstruction, not a transactional service.",
+    "nodeIds": [
+      "document:README.md",
+      "document:UX-CONTRACT.md"
+    ]
+  },
+  {
+    "order": 2,
+    "title": "Content and images",
+    "description": "Understand the seven Space records and their shared media configuration before changing presentation. Contact destinations are public links; no backend owns these records.",
+    "nodeIds": [
+      "file:src/content.ts",
+      "file:src/media.ts"
+    ]
+  },
+  {
+    "order": 3,
+    "title": "React entry and state",
+    "description": "Follow the root mount and App composition. Gallery selection and the contact-dialog reference live at the page level; hero selection and menu state are local.",
+    "nodeIds": [
+      "file:index.html",
+      "file:src/main.tsx"
+    ]
+  },
+  {
+    "order": 4,
+    "title": "Style and accessibility",
+    "description": "Read the base stylesheet followed by the refinement layer. Shared focus, reduced motion, responsive layout and dialog rules work together.",
+    "nodeIds": [
+      "file:src/styles.css",
+      "file:src/revamp.css",
+      "file:src/icons.tsx"
+    ]
+  },
+  {
+    "order": 5,
+    "title": "Build and preview",
+    "description": "The bundler reuses installed tools, then the preview serves dist. Source edits require an explicit build when dist already exists.",
+    "nodeIds": [
+      "file:scripts/tooling.mjs",
+      "file:scripts/build.mjs",
+      "file:scripts/server.mjs"
+    ]
+  },
+  {
+    "order": 6,
+    "title": "Verification and limits",
+    "description": "Review local checks and historical evidence separately from this static analysis. Browser tests need a running local server and the sibling Playwright installation.",
+    "nodeIds": [
+      "file:scripts/typecheck.mjs",
+      "file:scripts/verify.cjs",
+      "document:inspection/REVAMP-REVIEW.md"
+    ]
+  }
+]

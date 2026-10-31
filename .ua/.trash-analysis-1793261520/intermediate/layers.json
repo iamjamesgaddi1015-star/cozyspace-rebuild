@@ -1,0 +1,75 @@
+[
+  {
+    "id": "layer:content",
+    "name": "Content and media",
+    "description": "Editable business records, contact destinations and local media configuration.",
+    "nodeIds": [
+      "file:src/content.ts",
+      "file:src/media.ts"
+    ]
+  },
+  {
+    "id": "layer:application",
+    "name": "Page and browser behavior",
+    "description": "Page composition, shared components, dialogs and client-side interactions.",
+    "nodeIds": [
+      "file:src/icons.tsx",
+      "file:src/main.tsx"
+    ]
+  },
+  {
+    "id": "layer:presentation",
+    "name": "Visual system",
+    "description": "Base and refinement stylesheets, local fonts and document markup.",
+    "nodeIds": [
+      "file:index.html",
+      "file:public/fonts/fonts.css",
+      "file:src/revamp.css",
+      "file:src/styles.css"
+    ]
+  },
+  {
+    "id": "layer:tooling",
+    "name": "Build and local preview",
+    "description": "Existing-toolchain resolution, packaging, launchers and loopback-only preview server.",
+    "nodeIds": [
+      "file:Start CozySpace.cmd",
+      "file:scripts/build.mjs",
+      "file:scripts/server.mjs",
+      "file:scripts/tooling.mjs"
+    ]
+  },
+  {
+    "id": "layer:verification",
+    "name": "Checks and reference evidence",
+    "description": "Local test scripts, reference-capture utilities and historical review evidence.",
+    "nodeIds": [
+      "document:inspection/FINDINGS.md",
+      "document:inspection/REVAMP-REVIEW.md",
+      "document:inspection/REVIEW.md",
+      "file:inspection/fetch-assets.mjs",
+      "file:inspection/inspect-reference.mjs",
+      "file:inspection/qa-check.mjs",
+      "file:inspection/verify-local.mjs",
+      "file:scripts/capture.cjs",
+      "file:scripts/server-check.mjs",
+      "file:scripts/typecheck.mjs",
+      "file:scripts/verify.cjs"
+    ]
+  },
+  {
+    "id": "layer:documentation",
+    "name": "Project guidance",
+    "description": "Overview, design/UX contracts, edit instructions, package/compiler configuration and task history.",
+    "nodeIds": [
+      "document:DESIGN.md",
+      "document:MEDIA-GUIDE.md",
+      "document:README.md",
+      "document:TASKS.md",
+      "document:UX-CONTRACT.md",
+      "config:package.json",
+      "document:public/media/README.md",
+      "config:tsconfig.json"
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "projectRoot": "C:\\Users\\222170\\Documents\\James-Workspace\\04-Personal-Projects\\cozyspace-rebuild",
+  "batchFiles": [
+    {
+      "path": "inspection/FINDINGS.md",
+      "language": "markdown",
+      "sizeLines": 25,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "inspection/REVAMP-REVIEW.md",
+      "language": "markdown",
+      "sizeLines": 45,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "inspection/REVIEW.md",
+      "language": "markdown",
+      "sizeLines": 25,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "inspection/FINDINGS.md": [],
+    "inspection/REVAMP-REVIEW.md": [],
+    "inspection/REVIEW.md": []
+  }
+}

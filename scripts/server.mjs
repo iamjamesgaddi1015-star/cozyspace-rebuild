@@ -1,0 +1,13 @@
+import {createServer} from 'node:http';
+import {readFile,stat} from 'node:fs/promises';
+import {existsSync} from 'node:fs';
+import {resolve,extname,sep} from 'node:path';
+const root=resolve(import.meta.dirname,'../dist');
+if(!existsSync(resolve(root,'index.html')))await import('./build.mjs');
+const mime={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.avif':'image/avif','.svg':'image/svg+xml','.ttf':'font/ttf','.woff2':'font/woff2','.webp':'image/webp'};
+export const server=createServer(async(req,res)=>{try{const url=new URL(req.url,'http://localhost');let path=resolve(root,'.'+decodeURIComponent(url.pathname));if(path!==root&&!path.startsWith(root+sep)){res.writeHead(403);res.end('Forbidden');return;}if(url.pathname==='/__cozyspace_preview'){res.writeHead(200,{'Content-Type':'text/plain','Cache-Control':'no-store'});res.end('cozyspace-local-preview-v1');return;}try{if((await stat(path)).isDirectory())path=resolve(path,'index.html');const body=await readFile(path);res.writeHead(200,{'Content-Type':mime[extname(path)]||'application/octet-stream','X-Content-Type-Options':'nosniff','Cache-Control':'no-store'});res.end(body);}catch{res.writeHead(404,{'Content-Type':'text/plain'});res.end('Page not found. Open / to return to CozySpace.');}}catch{res.writeHead(400);res.end('Bad request');}});
+const first=Number(process.env.PORT||5175);let port=first;
+if(!Number.isInteger(first)||first<1||first>65525)throw Error('PORT must be between 1 and 65525.');
+server.once('listening',()=>console.log(`CozySpace: http://127.0.0.1:${server.address().port}/\nLeave this window open. Press Ctrl+C to stop.`));
+server.on('error',async error=>{if(error.code!=='EADDRINUSE'){console.error(error.message);process.exitCode=1;return;}try{const r=await fetch(`http://127.0.0.1:${port}/__cozyspace_preview`,{signal:AbortSignal.timeout(1200),redirect:'error'});const body=await r.text();if(r.ok&&body==='cozyspace-local-preview-v1'){console.log(`CozySpace is already running: http://127.0.0.1:${port}/\nYou can close this extra window.`);return;}}catch{}if(port>=first+10){console.error('No free local port found. Set PORT to another port and try again.');process.exitCode=1;return;}console.log(`Port ${port} is occupied. Trying ${port+1}.`);server.listen(++port,'127.0.0.1');});
+server.listen(port,'127.0.0.1');

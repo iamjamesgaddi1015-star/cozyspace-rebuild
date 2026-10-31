@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://images.hostinger.com/99a216d8-f32c-4188-b6cc-515677f89ecc.png",
+    "path": "public/images/kitchen.png"
+  },
+  {
+    "url": "https://images.hostinger.com/24160e93-26e2-4b27-9a5f-0650c9c01c13.png",
+    "path": "public/images/wardrobe.png"
+  },
+  {
+    "url": "https://images.hostinger.com/2d3f4201-ff32-4d48-8487-6a5ffcc769d8.png",
+    "path": "public/images/bathroom.png"
+  },
+  {
+    "url": "https://images.hostinger.com/502922e0-7891-4100-a581-247e58b0bafc.png",
+    "path": "public/images/storage.png"
+  },
+  {
+    "url": "https://images.hostinger.com/80b34ce1-fceb-4830-901f-45dddec90caf.png",
+    "path": "public/images/laundry.png"
+  },
+  {
+    "url": "https://images.hostinger.com/7e0182dd-ef67-4165-a6e3-f6dbb286d7a8.png",
+    "path": "public/images/office.png"
+  },
+  {
+    "url": "https://images.hostinger.com/215d52cb-4709-41a9-90e6-899320e9592d.png",
+    "path": "public/images/move-ins.png"
+  }
+]

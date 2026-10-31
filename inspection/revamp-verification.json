@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "browser": "156.0.8078.4",
+  "checks": [
+    "Seven room selectors, selected state and active photo",
+    "Room index anchors",
+    "Photo viewer: arrows, focus containment, Escape and trigger restoration",
+    "Per-room contact opens existing dialog without sending a message",
+    "No horizontal overflow at seven widths",
+    "Mobile navigation and Escape",
+    "Photo viewer controls remain reachable on mobile",
+    "Reduced motion",
+    "Loaded-site interaction works offline",
+    "Zero runtime errors and zero external network requests"
+  ]
+}

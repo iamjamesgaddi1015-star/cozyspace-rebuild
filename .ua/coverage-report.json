@@ -1,0 +1,41 @@
+{
+  "analyzedAt": "2026-10-29T08:08:34.374Z",
+  "eligibleFiles": 31,
+  "representedFiles": 31,
+  "missingFiles": [],
+  "fileCategories": {
+    "docs": 9,
+    "script": 1,
+    "markup": 4,
+    "code": 15,
+    "config": 2
+  },
+  "nodeTypes": {
+    "file": 20,
+    "function": 19,
+    "document": 9,
+    "config": 2
+  },
+  "edgeTypes": {
+    "imports": 8,
+    "contains": 29,
+    "exports": 6,
+    "documents": 9,
+    "configures": 8
+  },
+  "schemaValid": true,
+  "issues": [],
+  "warnings": [
+    "Static source analysis only: app/browser/network flows were not executed.",
+    "Binary assets, dependencies, generated builds, large captured audits, secrets and local private data are excluded.",
+    "Anonymous callbacks, runtime DOM wiring and third-party behavior are described at file level; graph edges are not a complete execution trace.",
+    "Merge removed 3 noncanonical tested_by associations; source check scripts remain represented."
+  ],
+  "extractionSkipped": [
+    "Start CozySpace.cmd",
+    "index.html",
+    "public/fonts/fonts.css",
+    "src/revamp.css",
+    "src/styles.css"
+  ]
+}

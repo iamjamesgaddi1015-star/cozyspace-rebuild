@@ -1,0 +1,289 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 7,
+  "filesSkipped": [
+    "Start CozySpace.cmd",
+    "index.html"
+  ],
+  "filesUnreadable": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 7,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 7
+    }
+  },
+  "results": [
+    {
+      "path": "DESIGN.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 101,
+      "nonEmptyLines": 77,
+      "sections": [
+        {
+          "heading": "CozySpace Design System",
+          "level": 1,
+          "line": 31
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "October 29 refinement",
+          "level": 3,
+          "line": 35
+        },
+        {
+          "heading": "Creative North Star",
+          "level": 3,
+          "line": 47
+        },
+        {
+          "heading": "Product context and register",
+          "level": 3,
+          "line": 51
+        },
+        {
+          "heading": "Colors",
+          "level": 2,
+          "line": 61
+        },
+        {
+          "heading": "Typography",
+          "level": 2,
+          "line": 69
+        },
+        {
+          "heading": "Layout",
+          "level": 2,
+          "line": 73
+        },
+        {
+          "heading": "Elevation & Depth",
+          "level": 2,
+          "line": 77
+        },
+        {
+          "heading": "Shapes",
+          "level": 2,
+          "line": 81
+        },
+        {
+          "heading": "Components",
+          "level": 2,
+          "line": 85
+        },
+        {
+          "heading": "Do's and Don'ts",
+          "level": 2,
+          "line": 95
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    },
+    {
+      "path": "MEDIA-GUIDE.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 36,
+      "nonEmptyLines": 27,
+      "sections": [
+        {
+          "heading": "CozySpace media setup",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 74,
+      "nonEmptyLines": 55,
+      "sections": [
+        {
+          "heading": "CozySpace",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Run locally — no installation needed on this workspace",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "What changed",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "October 29 revamp",
+          "level": 3,
+          "line": 26
+        },
+        {
+          "heading": "Edit",
+          "level": 2,
+          "line": 50
+        },
+        {
+          "heading": "Rollback",
+          "level": 2,
+          "line": 70
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "TASKS.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 17,
+      "nonEmptyLines": 14,
+      "sections": [
+        {
+          "heading": "CozySpace revamp — 2026-10-29",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "UX-CONTRACT.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 16,
+      "nonEmptyLines": 13,
+      "sections": [
+        {
+          "heading": "CozySpace behavior ownership",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "package.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 26,
+      "nonEmptyLines": 26,
+      "sections": [
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "version",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "private",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "type",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "scripts",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "dependencies",
+          "level": 1,
+          "line": 13
+        },
+        {
+          "heading": "devDependencies",
+          "level": 1,
+          "line": 17
+        },
+        {
+          "heading": "engines",
+          "level": 1,
+          "line": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "tsconfig.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 15,
+      "nonEmptyLines": 15,
+      "sections": [
+        {
+          "heading": "compilerOptions",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "include",
+          "level": 1,
+          "line": 14
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    }
+  ]
+}

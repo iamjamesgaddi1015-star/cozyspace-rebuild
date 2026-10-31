@@ -1,0 +1,185 @@
+{
+  "nodes": [
+    {
+      "id": "file:inspection/fetch-assets.mjs",
+      "type": "file",
+      "name": "fetch-assets.mjs",
+      "filePath": "inspection/fetch-assets.mjs",
+      "summary": "Downloads public reference assets into the local project; not executed during analysis because it accesses the network.",
+      "tags": [
+        "code",
+        "javascript",
+        "project-context"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:inspection/inspect-reference.mjs",
+      "type": "file",
+      "name": "inspect-reference.mjs",
+      "filePath": "inspection/inspect-reference.mjs",
+      "summary": "Uses browser automation to inspect the public reference and save visual/DOM observations; not run here.",
+      "tags": [
+        "code",
+        "javascript",
+        "project-context"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:inspection/qa-check.mjs",
+      "type": "file",
+      "name": "qa-check.mjs",
+      "filePath": "inspection/qa-check.mjs",
+      "summary": "Contains local browser QA assertions for the reconstruction; source was analyzed without launching a browser.",
+      "tags": [
+        "code",
+        "javascript",
+        "verification"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:inspection/verify-local.mjs",
+      "type": "file",
+      "name": "verify-local.mjs",
+      "filePath": "inspection/verify-local.mjs",
+      "summary": "Checks local rendered structure, keyboard behavior, responsive views and media using browser automation.",
+      "tags": [
+        "code",
+        "javascript",
+        "verification"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:public/fonts/fonts.css",
+      "type": "file",
+      "name": "fonts.css",
+      "filePath": "public/fonts/fonts.css",
+      "summary": "Declares locally served Manrope and Libre Caslon Display font faces and weights.",
+      "tags": [
+        "markup",
+        "css",
+        "project-context"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:public/media/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "public/media/README.md",
+      "summary": "Documents where licensed replacement media belongs and how browser URLs map to the public directory.",
+      "tags": [
+        "docs",
+        "markdown",
+        "project-context"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/capture.cjs",
+      "type": "file",
+      "name": "capture.cjs",
+      "filePath": "scripts/capture.cjs",
+      "summary": "Captures local preview screenshots using the sibling Playwright installation.",
+      "tags": [
+        "code",
+        "javascript",
+        "tooling"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/server-check.mjs",
+      "type": "file",
+      "name": "server-check.mjs",
+      "filePath": "scripts/server-check.mjs",
+      "summary": "Creates synthetic loopback servers to verify a busy unrelated port is preserved and preview moves to the next port.",
+      "tags": [
+        "code",
+        "javascript",
+        "verification"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/server.mjs",
+      "type": "file",
+      "name": "server.mjs",
+      "filePath": "scripts/server.mjs",
+      "summary": "Serves the existing dist build on loopback port 5175 by default, builds only if missing, checks its preview marker and retries occupied ports.",
+      "tags": [
+        "code",
+        "javascript",
+        "tooling"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/verify.cjs",
+      "type": "file",
+      "name": "verify.cjs",
+      "filePath": "scripts/verify.cjs",
+      "summary": "Exercises seven room selectors, anchors, photo dialog keyboard/focus behavior, contacts, responsive layouts and offline interactions.",
+      "tags": [
+        "code",
+        "javascript",
+        "verification"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/revamp.css",
+      "type": "file",
+      "name": "revamp.css",
+      "filePath": "src/revamp.css",
+      "summary": "Overrides the base styles for the named room selectors, direct index, clearer chapters and full-size photo dialog.",
+      "tags": [
+        "markup",
+        "css",
+        "application"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/styles.css",
+      "type": "file",
+      "name": "styles.css",
+      "filePath": "src/styles.css",
+      "summary": "Defines the base palette, typography, photographic page sections, responsive layouts, focus states and reduced-motion behavior.",
+      "tags": [
+        "markup",
+        "css",
+        "application"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "document:public/media/README.md",
+      "target": "config:package.json",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "file:scripts/server-check.mjs",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.6,
+      "description": "Static association to a test/check script; does not mean the script was run."
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "file:scripts/verify.cjs",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.6,
+      "description": "Static association to a test/check script; does not mean the script was run."
+    }
+  ]
+}

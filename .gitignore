@@ -1,0 +1,12 @@
+node_modules/
+inspection/revamp-before/
+inspection/revamp-reference/
+inspection/revamp-after/
+inspection/taste-revamp/
+dist/
+inspection/*evidence.json
+inspection/*.png
+inspection/original-dom.html
+inspection/reference.css
+inspection/before/
+inspection/unused-assets/

@@ -1,0 +1,717 @@
+{
+  "version": "1.0.0",
+  "gitCommitHash": "58edcbf1f68433b51d5a8e3e3a7a31b288e39470",
+  "generatedAt": "2026-10-29T08:08:35.152Z",
+  "files": {
+    "DESIGN.md": {
+      "filePath": "DESIGN.md",
+      "contentHash": "06d55de740f7667dee096ca6d243ce847fa8315a41907da8527b95aa1af97450",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 102,
+      "hasStructuralAnalysis": false
+    },
+    "MEDIA-GUIDE.md": {
+      "filePath": "MEDIA-GUIDE.md",
+      "contentHash": "1a3d969221514575b8c6533d765bc1b6bad73cd6bb46a04c158242a49d59e2d6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 37,
+      "hasStructuralAnalysis": false
+    },
+    "README.md": {
+      "filePath": "README.md",
+      "contentHash": "39d1ddac5eda6c240ce982b9238a51d8702b908cf18156ca23fa85a874f531b3",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 75,
+      "hasStructuralAnalysis": false
+    },
+    "Start CozySpace.cmd": {
+      "filePath": "Start CozySpace.cmd",
+      "contentHash": "1feab2c0736dca3dde83e448c4bc53b1e9ece774c37ad415c2938a324a1a1ec6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 7,
+      "hasStructuralAnalysis": false
+    },
+    "TASKS.md": {
+      "filePath": "TASKS.md",
+      "contentHash": "39ed9154da5eab2162f41ac2318fb5d9a18e564bf26e2f9c5f0b457ec305cf60",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 18,
+      "hasStructuralAnalysis": false
+    },
+    "UX-CONTRACT.md": {
+      "filePath": "UX-CONTRACT.md",
+      "contentHash": "ff54869df5539b684d159ee9f3d75fb7ba6c53bc7a2236eaa2862cb42de69eac",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 17,
+      "hasStructuralAnalysis": false
+    },
+    "index.html": {
+      "filePath": "index.html",
+      "contentHash": "78c59f235716cf916a1fe52e9b82e0b32e5cd78a4cd4e803573965cfb263b9d7",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 19,
+      "hasStructuralAnalysis": false
+    },
+    "inspection/FINDINGS.md": {
+      "filePath": "inspection/FINDINGS.md",
+      "contentHash": "adc6375b40a060bf11f2f1a77d5d4d56cb0f73dc2540ef7dddd0c724a06e98f6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 26,
+      "hasStructuralAnalysis": false
+    },
+    "inspection/REVAMP-REVIEW.md": {
+      "filePath": "inspection/REVAMP-REVIEW.md",
+      "contentHash": "44d7f758f33ee92597335aa9e54719dcf4528f79f22fbbc892c5d19128517d10",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 46,
+      "hasStructuralAnalysis": false
+    },
+    "inspection/REVIEW.md": {
+      "filePath": "inspection/REVIEW.md",
+      "contentHash": "5341c27006163b5ef14d9226822d39a460b6f0731b3b93531dbd6d6e193af682",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 26,
+      "hasStructuralAnalysis": false
+    },
+    "inspection/fetch-assets.mjs": {
+      "filePath": "inspection/fetch-assets.mjs",
+      "contentHash": "a3d7a1ed0d04b741da13a711ba21d20710fdbd2531b1bc85575571710d4578d7",
+      "functions": [],
+      "classes": [],
+      "imports": [
+        {
+          "source": "node:fs/promises",
+          "specifiers": [
+            "readFile",
+            "writeFile",
+            "mkdir"
+          ]
+        }
+      ],
+      "exports": [],
+      "totalLines": 29,
+      "hasStructuralAnalysis": true
+    },
+    "inspection/inspect-reference.mjs": {
+      "filePath": "inspection/inspect-reference.mjs",
+      "contentHash": "2a25b6ae1c7f48c126a2db1edf2bf9760a9ed3f8f9a98e4767d3a56612325435",
+      "functions": [],
+      "classes": [],
+      "imports": [
+        {
+          "source": "node:url",
+          "specifiers": [
+            "pathToFileURL"
+          ]
+        },
+        {
+          "source": "node:fs/promises",
+          "specifiers": [
+            "readFile",
+            "writeFile",
+            "mkdir"
+          ]
+        }
+      ],
+      "exports": [],
+      "totalLines": 54,
+      "hasStructuralAnalysis": true
+    },
+    "inspection/qa-check.mjs": {
+      "filePath": "inspection/qa-check.mjs",
+      "contentHash": "a68de7de5691d8c005dd31950b6fedf184ee5cb31659e86665c68ac1dac04591",
+      "functions": [],
+      "classes": [],
+      "imports": [
+        {
+          "source": "file:///C:/Users/Kariz/AppData/Local/npm-cache/_npx/da7caeae9db9c589/node_modules/playwright-core/index.mjs",
+          "specifiers": [
+            "chromium"
+          ]
+        }
+      ],
+      "exports": [],
+      "totalLines": 25,
+      "hasStructuralAnalysis": true
+    },
+    "inspection/verify-local.mjs": {
+      "filePath": "inspection/verify-local.mjs",
+      "contentHash": "74132f60a7b93e2e548180c8a83b61529e8b5880b8ea0d4f249803e80defd77a",
+      "functions": [
+        {
+          "name": "record",
+          "params": [
+            "name"
+          ],
+          "exported": false,
+          "lineCount": 1
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "node:assert/strict",
+          "specifiers": [
+            "assert"
+          ]
+        },
+        {
+          "source": "node:url",
+          "specifiers": [
+            "pathToFileURL"
+          ]
+        },
+        {
+          "source": "node:fs/promises",
+          "specifiers": [
+            "writeFile"
+          ]
+        }
+      ],
+      "exports": [],
+      "totalLines": 122,
+      "hasStructuralAnalysis": true
+    },
+    "package.json": {
+      "filePath": "package.json",
+      "contentHash": "1c310ebeac11538730bd1bab8ed4dbb93ffea4f6d75c453fa0602e0b8fb25bc4",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 27,
+      "hasStructuralAnalysis": false
+    },
+    "public/fonts/fonts.css": {
+      "filePath": "public/fonts/fonts.css",
+      "contentHash": "850898c7e4f86ba7aa1c8d75ad84dc21280ce9b76c90409397ec45a34a9bbe53",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 43,
+      "hasStructuralAnalysis": false
+    },
+    "public/media/README.md": {
+      "filePath": "public/media/README.md",
+      "contentHash": "f6895e1dde19083abc725f2f0df37bfc96aa99c72e543f1aaa3a55449120f975",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 8,
+      "hasStructuralAnalysis": false
+    },
+    "scripts/build.mjs": {
+      "filePath": "scripts/build.mjs",
+      "contentHash": "b0e8d1732f770ca1715f3b2078d9e4588cf62c0f349af47de0ad190d207ef32d",
+      "functions": [],
+      "classes": [],
+      "imports": [
+        {
+          "source": "node:fs/promises",
+          "specifiers": [
+            "mkdir",
+            "cp",
+            "readFile",
+            "writeFile"
+          ]
+        },
+        {
+          "source": "node:path",
+          "specifiers": [
+            "join"
+          ]
+        },
+        {
+          "source": "./tooling.mjs",
+          "specifiers": [
+            "root",
+            "modules",
+            "tooling"
+          ]
+        }
+      ],
+      "exports": [],
+      "totalLines": 11,
+      "hasStructuralAnalysis": true
+    },
+    "scripts/capture.cjs": {
+      "filePath": "scripts/capture.cjs",
+      "contentHash": "ba2109f3e494d094b7085d38aa6839e6b099f6e674f6c93504b290401028ce86",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 4,
+      "hasStructuralAnalysis": true
+    },
+    "scripts/server-check.mjs": {
+      "filePath": "scripts/server-check.mjs",
+      "contentHash": "00fbb22ec29cadfa801879f861ab37802505792f8ee05c1e5d2d488e9e607d1d",
+      "functions": [],
+      "classes": [],
+      "imports": [
+        {
+          "source": "node:http",
+          "specifiers": [
+            "createServer"
+          ]
+        },
+        {
+          "source": "node:events",
+          "specifiers": [
+            "once"
+          ]
+        },
+        {
+          "source": "node:assert/strict",
+          "specifiers": [
+            "assert"
+          ]
+        }
+      ],
+      "exports": [],
+      "totalLines": 7,
+      "hasStructuralAnalysis": true
+    },
+    "scripts/server.mjs": {
+      "filePath": "scripts/server.mjs",
+      "contentHash": "2dbdd03afbee9b5887d4cc9533a1ecf11bf6c2c6605403f29a77679a867dddfe",
+      "functions": [],
+      "classes": [],
+      "imports": [
+        {
+          "source": "node:http",
+          "specifiers": [
+            "createServer"
+          ]
+        },
+        {
+          "source": "node:fs/promises",
+          "specifiers": [
+            "readFile",
+            "stat"
+          ]
+        },
+        {
+          "source": "node:fs",
+          "specifiers": [
+            "existsSync"
+          ]
+        },
+        {
+          "source": "node:path",
+          "specifiers": [
+            "resolve",
+            "extname",
+            "sep"
+          ]
+        }
+      ],
+      "exports": [
+        "server"
+      ],
+      "totalLines": 14,
+      "hasStructuralAnalysis": true
+    },
+    "scripts/tooling.mjs": {
+      "filePath": "scripts/tooling.mjs",
+      "contentHash": "a48a6c9b9b2069150511703cb80d04cdcd1cd1c136637de4213455c25dba2dd3",
+      "functions": [],
+      "classes": [],
+      "imports": [
+        {
+          "source": "node:module",
+          "specifiers": [
+            "createRequire"
+          ]
+        },
+        {
+          "source": "node:fs",
+          "specifiers": [
+            "existsSync"
+          ]
+        },
+        {
+          "source": "node:path",
+          "specifiers": [
+            "resolve",
+            "join"
+          ]
+        }
+      ],
+      "exports": [
+        "root",
+        "modules",
+        "tooling"
+      ],
+      "totalLines": 9,
+      "hasStructuralAnalysis": true
+    },
+    "scripts/typecheck.mjs": {
+      "filePath": "scripts/typecheck.mjs",
+      "contentHash": "eb2c13465ab8a7993d027dd2bb0df4a74ea2a38b1c0027b5a924f69cdbbbb50f",
+      "functions": [],
+      "classes": [],
+      "imports": [
+        {
+          "source": "node:path",
+          "specifiers": [
+            "join"
+          ]
+        },
+        {
+          "source": "./tooling.mjs",
+          "specifiers": [
+            "root",
+            "modules",
+            "tooling"
+          ]
+        }
+      ],
+      "exports": [],
+      "totalLines": 10,
+      "hasStructuralAnalysis": true
+    },
+    "scripts/verify.cjs": {
+      "filePath": "scripts/verify.cjs",
+      "contentHash": "e52db4cde0cb6975ecf6a45ffad05a5a1ae0776c2a8c1a49dae6c31611043ead",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 38,
+      "hasStructuralAnalysis": true
+    },
+    "src/content.ts": {
+      "filePath": "src/content.ts",
+      "contentHash": "299e266e30cd87de5254f4c8351c50c07a04bb44597bfac97b2d13baf209dea4",
+      "functions": [],
+      "classes": [],
+      "imports": [
+        {
+          "source": "./media",
+          "specifiers": [
+            "media"
+          ]
+        }
+      ],
+      "exports": [
+        "content",
+        "spaces"
+      ],
+      "totalLines": 69,
+      "hasStructuralAnalysis": true
+    },
+    "src/icons.tsx": {
+      "filePath": "src/icons.tsx",
+      "contentHash": "7aa6a7043ca499b01e67c7e9aa512c4608daa8e3fad3b6b67d55926842078fc2",
+      "functions": [
+        {
+          "name": "Icon",
+          "params": [
+            "{size=24,children,...props}"
+          ],
+          "exported": false,
+          "lineCount": 1
+        },
+        {
+          "name": "ArrowDown",
+          "params": [
+            "p"
+          ],
+          "exported": true,
+          "lineCount": 1
+        },
+        {
+          "name": "ArrowDownRight",
+          "params": [
+            "p"
+          ],
+          "exported": true,
+          "lineCount": 1
+        },
+        {
+          "name": "ArrowUpRight",
+          "params": [
+            "p"
+          ],
+          "exported": true,
+          "lineCount": 1
+        },
+        {
+          "name": "Menu",
+          "params": [
+            "p"
+          ],
+          "exported": true,
+          "lineCount": 1
+        },
+        {
+          "name": "X",
+          "params": [
+            "p"
+          ],
+          "exported": true,
+          "lineCount": 1
+        },
+        {
+          "name": "MessageCircle",
+          "params": [
+            "p"
+          ],
+          "exported": true,
+          "lineCount": 1
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "react",
+          "specifiers": [
+            "SVGProps"
+          ]
+        }
+      ],
+      "exports": [
+        "ArrowDown",
+        "ArrowDownRight",
+        "ArrowUpRight",
+        "Menu",
+        "X",
+        "MessageCircle"
+      ],
+      "totalLines": 10,
+      "hasStructuralAnalysis": true
+    },
+    "src/main.tsx": {
+      "filePath": "src/main.tsx",
+      "contentHash": "8a8172df5926b7025e0a6458c0b8ad290f5eff9a38cc47749ce42abd9f2c76f5",
+      "functions": [
+        {
+          "name": "Eyebrow",
+          "params": [
+            "{ children }"
+          ],
+          "exported": false,
+          "lineCount": 3
+        },
+        {
+          "name": "SectionLabel",
+          "params": [
+            "{ index, children }"
+          ],
+          "exported": false,
+          "lineCount": 3
+        },
+        {
+          "name": "Header",
+          "params": [
+            "{ onContact }"
+          ],
+          "exported": false,
+          "lineCount": 28
+        },
+        {
+          "name": "Hero",
+          "params": [],
+          "exported": false,
+          "lineCount": 19
+        },
+        {
+          "name": "Story",
+          "params": [],
+          "exported": false,
+          "lineCount": 10
+        },
+        {
+          "name": "SpaceChapter",
+          "params": [
+            "{ space, index, onView, onContact }"
+          ],
+          "exported": false,
+          "lineCount": 23
+        },
+        {
+          "name": "Services",
+          "params": [
+            "{onView,onContact}"
+          ],
+          "exported": false,
+          "lineCount": 11
+        },
+        {
+          "name": "Philosophy",
+          "params": [
+            "{ onContact }"
+          ],
+          "exported": false,
+          "lineCount": 14
+        },
+        {
+          "name": "Contact",
+          "params": [
+            "{ onContact }"
+          ],
+          "exported": false,
+          "lineCount": 12
+        },
+        {
+          "name": "ContactDialog",
+          "params": [
+            "{ dialogRef }"
+          ],
+          "exported": false,
+          "lineCount": 22
+        },
+        {
+          "name": "Footer",
+          "params": [],
+          "exported": false,
+          "lineCount": 7
+        },
+        {
+          "name": "PhotoGallery",
+          "params": [
+            "{index,onChange,onClose}"
+          ],
+          "exported": false,
+          "lineCount": 10
+        },
+        {
+          "name": "App",
+          "params": [],
+          "exported": false,
+          "lineCount": 13
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "react",
+          "specifiers": [
+            "React",
+            "useEffect",
+            "useRef",
+            "useState"
+          ]
+        },
+        {
+          "source": "react-dom/client",
+          "specifiers": [
+            "createRoot"
+          ]
+        },
+        {
+          "source": "./icons",
+          "specifiers": [
+            "ArrowDown",
+            "ArrowDownRight",
+            "ArrowUpRight",
+            "Menu",
+            "MessageCircle",
+            "X"
+          ]
+        },
+        {
+          "source": "./content",
+          "specifiers": [
+            "content",
+            "spaces",
+            "Space"
+          ]
+        },
+        {
+          "source": "./media",
+          "specifiers": [
+            "media"
+          ]
+        },
+        {
+          "source": "./styles.css",
+          "specifiers": []
+        },
+        {
+          "source": "./revamp.css",
+          "specifiers": []
+        }
+      ],
+      "exports": [],
+      "totalLines": 204,
+      "hasStructuralAnalysis": true
+    },
+    "src/media.ts": {
+      "filePath": "src/media.ts",
+      "contentHash": "9eaa406df2c76ed2977bdb049937158b70911be954324b7f39b076c751dbe286",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        "media"
+      ],
+      "totalLines": 15,
+      "hasStructuralAnalysis": true
+    },
+    "src/revamp.css": {
+      "filePath": "src/revamp.css",
+      "contentHash": "f658efa5dd6e2f7bc03747aa961b58ebeea2b2bcafa970a0f77765179f1bc442",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 64,
+      "hasStructuralAnalysis": false
+    },
+    "src/styles.css": {
+      "filePath": "src/styles.css",
+      "contentHash": "de930b2d5791b2f891e26fb623749129d5658eb07381563046a5829cfdb333db",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 262,
+      "hasStructuralAnalysis": false
+    },
+    "tsconfig.json": {
+      "filePath": "tsconfig.json",
+      "contentHash": "f413f473e88f2475068c3ce063b6b4384d40878b2324af427ab575e75b325e0e",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 16,
+      "hasStructuralAnalysis": false
+    }
+  }
+}

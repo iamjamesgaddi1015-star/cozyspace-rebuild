@@ -1,0 +1,10 @@
+import {mkdir,cp,readFile,writeFile} from 'node:fs/promises';
+import {join} from 'node:path';
+import {root,modules,tooling} from './tooling.mjs';
+const esbuild=tooling('esbuild');
+await mkdir(join(root,'dist/assets'),{recursive:true});
+await cp(join(root,'public'),join(root,'dist'),{recursive:true});
+await esbuild.build({absWorkingDir:root,entryPoints:['src/main.tsx'],outdir:'dist/assets',entryNames:'app',bundle:true,minify:true,nodePaths:[modules],external:['/fonts/*'],define:{'process.env.NODE_ENV':'"production"'},jsx:'automatic'});
+const html=(await readFile(join(root,'index.html'),'utf8')).replace('<script type="module" src="/src/main.tsx"></script>','<link rel="stylesheet" href="/assets/app.css"><script type="module" src="/assets/app.js"></script>');
+await writeFile(join(root,'dist/index.html'),html);
+console.log('Built CozySpace using existing local workspace tools. No installation required.');

@@ -1,0 +1,147 @@
+﻿- document:
+  - banner:
+    - link "CozySpace, back to top":
+      - /url: "#top"
+      - text: CozySpace
+    - navigation "Main navigation":
+      - link "The story":
+        - /url: "#story"
+      - link "Our services":
+        - /url: "#spaces"
+      - link "Our approach":
+        - /url: "#philosophy"
+    - button
+  - main:
+    - region "Organized for living, styled for comfort.":
+      - text: AN ORGANIZED HOME, A CLEARER MIND HOME ORGANIZATION, REIMAGINED
+      - heading "Organized for living, styled for comfort." [level=1]:
+        - text: Organized for living, styled for
+        - emphasis: comfort.
+      - paragraph: Transforming clutter into calm, beautiful spaces you love to settle into.
+      - link "Explore":
+        - /url: "#story"
+        - text: Explore
+        - img
+      - link "Scroll to the story":
+        - /url: "#story"
+    - region "Order isn’t about perfection. It’s about possibility.":
+      - text: I. THE STORY
+      - paragraph: THE FEELING OF COMING HOME
+      - heading "Order isn’t about perfection. It’s about possibility." [level=2]:
+        - text: Order isn’t about
+        - emphasis: perfection.
+        - text: It’s about possibility.
+      - paragraph: From the first glass on a kitchen shelf to the last piece of linen folded away, we find the beauty in making space for what matters.
+      - text: A considered home is a home that gives back.
+    - region "Space by space.":
+      - text: II. OUR SERVICES
+      - heading "Space by space." [level=2]:
+        - text: Space by
+        - emphasis: space.
+      - paragraph: Follow the light. Find the details. See what happens when a home is given room to breathe.
+      - article:
+        - img "Sunlit kitchen with arranged wine glasses and glass pasta jars"
+        - text: 01 — THE KITCHEN
+        - heading "A place for everything." [level=3]
+        - paragraph: Neatly stored together. Cooking surfaces remain clear for prep, while drawers and cabinets use organizers to keep contents visible and easy to access. Everything is quick to find and effortless to put back, preparing meals and cleaning up stays simple, efficient, and stress-free.
+        - text: Airtight · Customized labels · Sized to your shelf
+        - link "Continue to next space":
+          - /url: "#wardrobe"
+          - text: CONTINUE THE JOURNEY
+          - img
+      - article:
+        - img "Open wardrobe with color-coded clothes and a neatly folded drawer"
+        - text: 02 — THE WARDROBE
+        - heading "A calmer way to begin." [level=3]
+        - paragraph: Folded into matching stacks or put in organizers, then sorted in color order from light to dark so you can see all your choices at a glance. Hanging clothes are grouped by type, while shoes and accessories have their own neat spots. Because everything is clear, color-coded, and easy to reach, choosing an outfit and putting clothes away takes no time at all.
+        - text: Closets · Drawers · Clothing
+        - link "Continue to next space":
+          - /url: "#bathroom"
+          - text: CONTINUE THE JOURNEY
+          - img
+      - article:
+        - img "Bright bathroom with neatly organized skincare beneath the sink"
+        - text: 03 / 07 03 — THE BATHROOM
+        - heading "Space to breathe." [level=3]
+        - paragraph: Past the tiled wall, a clean porcelain sink comes into view. Behind the cabinet door or under the sink storage, skincare lives in storage organizer boxes, ready for the day ahead.
+        - text: Vanities · Skincare · Small spaces
+        - link "Continue to next space":
+          - /url: "#utility"
+          - text: CONTINUE THE JOURNEY
+          - img
+      - article:
+        - img "Organized laundry room with labeled baskets, detergents, and folded linens on shelves"
+        - text: 04 / 07 04 — THE LAUNDRY ROOM
+        - heading "Only what belongs." [level=3]
+        - paragraph: Tools and clothes are easy to find, see, and put away, handling laundry becomes a quick, simple, and hassle-free task.
+        - text: Linen · Laundry · Decluttering
+        - link "Continue to next space":
+          - /url: "#storage-room"
+          - text: CONTINUE THE JOURNEY
+          - img
+      - article:
+        - img "Warm, neatly organized storage room with oak shelves, baskets, and folded linens"
+        - text: 05 / 07 05 — THE STORAGE ROOM
+        - heading "Everything in its place." [level=3]
+        - paragraph: Seasonal pieces, linens, and everyday essentials are grouped into clear, easy-to-reach zones. Thoughtful shelving and labeled containers make the room feel lighter and every item simple to find.
+        - text: Shelving · Baskets · Seasonal storage
+        - link "Continue to next space":
+          - /url: "#office-room"
+          - text: CONTINUE THE JOURNEY
+          - img
+      - article:
+        - img "Serene organized home office with a warm oak desk, shelves, and tidy storage"
+        - text: 06 / 07 06 — THE OFFICE ROOM
+        - heading "Clarity to focus." [level=3]
+        - paragraph: A calm workspace gives every tool a home. Papers, stationery, cables, and project materials are sorted into simple systems, leaving the desk clear for the work that matters.
+        - text: Workspaces · Filing · Daily systems
+        - link "Continue to next space":
+          - /url: "#move-ins"
+          - text: CONTINUE THE JOURNEY
+          - img
+      - article:
+        - img "Move-in scene with an Interior Organizer in white t-shirt and brown trousers carrying a plant box among labeled moving boxes"
+        - text: 07 / 07 07 — MOVE-INS
+        - heading "A softer beginning." [level=3]
+        - paragraph: From the first open box to the final thoughtful detail, belongings are unpacked, sorted, and placed with intention so your new home feels settled, personal, and ready to live in.
+        - text: Unpacking · Sorting · Fresh starts
+        - link "Continue to our approach":
+          - /url: "#philosophy"
+          - text: CONTINUE THE JOURNEY
+          - img
+    - region "Less clutter. More life.":
+      - text: III. THE WAY WE SEE IT A DIFFERENT KIND OF TRANSFORMATION
+      - heading "Less clutter. More life." [level=2]:
+        - text: Less clutter.
+        - emphasis: More life.
+      - paragraph: We believe organization should feel human. Not a picture-perfect room that no one lives in, but a thoughtful system that makes ordinary moments feel extraordinary.
+      - text: "01"
+      - strong: See the whole picture
+      - text: "02"
+      - strong: Keep what matters
+      - text: "03"
+      - strong: Make it yours
+      - link:
+        - /url: mailto:hello@theartoforder.studio?subject=Let's%20create%20space
+    - region "Let’s make space for what matters.":
+      - img "Sunlit kitchen with organized glassware"
+      - text: THE NEXT CHAPTER IS YOURS
+      - heading "Let’s make space for what matters." [level=2]:
+        - text: Let’s make space for
+        - emphasis: what matters.
+      - paragraph: Ready to see your home in a new light? We’d love to hear your story.
+      - button "Start a conversation":
+        - text: Start a conversation
+        - img
+      - text: COZYSPACE / HOME, REIMAGINED
+  - contentinfo:
+    - link "COZY SPACE":
+      - /url: "#top"
+      - text: COZY
+      - emphasis: SPACE
+    - text: Thoughtful spaces. Lighter living. Home organization, with intention.
+    - link "Visit us":
+      - /url: https://www.instagram.com/cozyspace.ae?stkn=YXNxZDY1eWw5YTVn&utm_source=qr
+      - text: Visit us
+      - img
+    - text: Message us on +971 55 769 8577 +971 55 722 0923

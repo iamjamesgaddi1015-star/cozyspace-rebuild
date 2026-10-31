@@ -1,0 +1,14 @@
+{
+  "issues": [],
+  "warnings": [
+    "Static source analysis only: app/browser/network flows were not executed.",
+    "Binary assets, dependencies, generated builds, large captured audits, secrets and local private data are excluded.",
+    "Anonymous callbacks, runtime DOM wiring and third-party behavior are described at file level; graph edges are not a complete execution trace."
+  ],
+  "stats": {
+    "totalNodes": 50,
+    "totalEdges": 60,
+    "totalLayers": 6,
+    "tourSteps": 6
+  }
+}

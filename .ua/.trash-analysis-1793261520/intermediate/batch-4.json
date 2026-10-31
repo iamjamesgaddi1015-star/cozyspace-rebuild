@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "document:inspection/FINDINGS.md",
+      "type": "document",
+      "name": "FINDINGS.md",
+      "filePath": "inspection/FINDINGS.md",
+      "summary": "Records public-reference inspection findings, implementation decisions, evidence limitations and historical recovery notes.",
+      "tags": [
+        "docs",
+        "markdown",
+        "project-context"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:inspection/REVAMP-REVIEW.md",
+      "type": "document",
+      "name": "REVAMP-REVIEW.md",
+      "filePath": "inspection/REVAMP-REVIEW.md",
+      "summary": "Records October 29 revamp changes, historical browser/build evidence, tooling reuse, open review gates and rollback.",
+      "tags": [
+        "docs",
+        "markdown",
+        "project-context"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:inspection/REVIEW.md",
+      "type": "document",
+      "name": "REVIEW.md",
+      "filePath": "inspection/REVIEW.md",
+      "summary": "Records historical local reconstruction checks and the scope those checks did not establish.",
+      "tags": [
+        "docs",
+        "markdown",
+        "project-context"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "document:inspection/FINDINGS.md",
+      "target": "file:src/main.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:inspection/REVAMP-REVIEW.md",
+      "target": "file:src/main.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:inspection/REVIEW.md",
+      "target": "file:src/main.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ]
+}

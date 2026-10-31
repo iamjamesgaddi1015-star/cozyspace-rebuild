@@ -1,0 +1,54 @@
+{
+  "scriptCompleted": true,
+  "stats": {
+    "filesScanned": 31,
+    "filesWithImports": 4,
+    "totalEdges": 8
+  },
+  "failures": [],
+  "importMap": {
+    "DESIGN.md": [],
+    "MEDIA-GUIDE.md": [],
+    "README.md": [],
+    "Start CozySpace.cmd": [],
+    "TASKS.md": [],
+    "UX-CONTRACT.md": [],
+    "index.html": [],
+    "inspection/FINDINGS.md": [],
+    "inspection/REVAMP-REVIEW.md": [],
+    "inspection/REVIEW.md": [],
+    "inspection/fetch-assets.mjs": [],
+    "inspection/inspect-reference.mjs": [],
+    "inspection/qa-check.mjs": [],
+    "inspection/verify-local.mjs": [],
+    "package.json": [],
+    "public/fonts/fonts.css": [],
+    "public/media/README.md": [],
+    "scripts/build.mjs": [
+      "scripts/tooling.mjs"
+    ],
+    "scripts/capture.cjs": [],
+    "scripts/server-check.mjs": [],
+    "scripts/server.mjs": [],
+    "scripts/tooling.mjs": [],
+    "scripts/typecheck.mjs": [
+      "scripts/tooling.mjs"
+    ],
+    "scripts/verify.cjs": [],
+    "src/content.ts": [
+      "src/media.ts"
+    ],
+    "src/icons.tsx": [],
+    "src/main.tsx": [
+      "src/content.ts",
+      "src/icons.tsx",
+      "src/media.ts",
+      "src/revamp.css",
+      "src/styles.css"
+    ],
+    "src/media.ts": [],
+    "src/revamp.css": [],
+    "src/styles.css": [],
+    "tsconfig.json": []
+  }
+}

@@ -1,0 +1,660 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 4,
+  "filesSkipped": [],
+  "filesUnreadable": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 4,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": [
+    {
+      "path": "src/content.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 68,
+      "nonEmptyLines": 65,
+      "exports": [
+        {
+          "name": "content",
+          "line": 14,
+          "isDefault": false
+        },
+        {
+          "name": "spaces",
+          "line": 25,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/icons.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "Icon",
+          "startLine": 3,
+          "endLine": 3,
+          "params": [
+            "{size=24,children,...props}"
+          ]
+        },
+        {
+          "name": "ArrowDown",
+          "startLine": 4,
+          "endLine": 4,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "ArrowDownRight",
+          "startLine": 5,
+          "endLine": 5,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "ArrowUpRight",
+          "startLine": 6,
+          "endLine": 6,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "Menu",
+          "startLine": 7,
+          "endLine": 7,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "X",
+          "startLine": 8,
+          "endLine": 8,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "MessageCircle",
+          "startLine": 9,
+          "endLine": 9,
+          "params": [
+            "p"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ArrowDown",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "ArrowDownRight",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "ArrowUpRight",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "Menu",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "X",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "MessageCircle",
+          "line": 9,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 6,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/main.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 203,
+      "nonEmptyLines": 187,
+      "functions": [
+        {
+          "name": "Eyebrow",
+          "startLine": 15,
+          "endLine": 17,
+          "params": [
+            "{ children }"
+          ]
+        },
+        {
+          "name": "SectionLabel",
+          "startLine": 19,
+          "endLine": 21,
+          "params": [
+            "{ index, children }"
+          ]
+        },
+        {
+          "name": "Header",
+          "startLine": 23,
+          "endLine": 50,
+          "params": [
+            "{ onContact }"
+          ]
+        },
+        {
+          "name": "Hero",
+          "startLine": 52,
+          "endLine": 70,
+          "params": []
+        },
+        {
+          "name": "Story",
+          "startLine": 72,
+          "endLine": 81,
+          "params": []
+        },
+        {
+          "name": "SpaceChapter",
+          "startLine": 83,
+          "endLine": 105,
+          "params": [
+            "{ space, index, onView, onContact }"
+          ]
+        },
+        {
+          "name": "Services",
+          "startLine": 107,
+          "endLine": 117,
+          "params": [
+            "{onView,onContact}"
+          ]
+        },
+        {
+          "name": "Philosophy",
+          "startLine": 119,
+          "endLine": 132,
+          "params": [
+            "{ onContact }"
+          ]
+        },
+        {
+          "name": "Contact",
+          "startLine": 134,
+          "endLine": 145,
+          "params": [
+            "{ onContact }"
+          ]
+        },
+        {
+          "name": "ContactDialog",
+          "startLine": 147,
+          "endLine": 168,
+          "params": [
+            "{ dialogRef }"
+          ]
+        },
+        {
+          "name": "Footer",
+          "startLine": 170,
+          "endLine": 176,
+          "params": []
+        },
+        {
+          "name": "PhotoGallery",
+          "startLine": 178,
+          "endLine": 187,
+          "params": [
+            "{index,onChange,onClose}"
+          ]
+        },
+        {
+          "name": "App",
+          "startLine": 189,
+          "endLine": 201,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Header",
+          "callee": "useState",
+          "lineNumber": 24
+        },
+        {
+          "caller": "Header",
+          "callee": "useRef",
+          "lineNumber": 25
+        },
+        {
+          "caller": "Header",
+          "callee": "useEffect",
+          "lineNumber": 26
+        },
+        {
+          "caller": "outside",
+          "callee": "event.target.closest",
+          "lineNumber": 27
+        },
+        {
+          "caller": "outside",
+          "callee": "setOpen",
+          "lineNumber": 27
+        },
+        {
+          "caller": "escape",
+          "callee": "setOpen",
+          "lineNumber": 29
+        },
+        {
+          "caller": "escape",
+          "callee": "menuButton.current?.focus",
+          "lineNumber": 29
+        },
+        {
+          "caller": "Header",
+          "callee": "window.matchMedia",
+          "lineNumber": 31
+        },
+        {
+          "caller": "close",
+          "callee": "setOpen",
+          "lineNumber": 32
+        },
+        {
+          "caller": "Header",
+          "callee": "document.addEventListener",
+          "lineNumber": 33
+        },
+        {
+          "caller": "Header",
+          "callee": "document.addEventListener",
+          "lineNumber": 34
+        },
+        {
+          "caller": "Header",
+          "callee": "desktop.addEventListener",
+          "lineNumber": 35
+        },
+        {
+          "caller": "Header",
+          "callee": "document.removeEventListener",
+          "lineNumber": 36
+        },
+        {
+          "caller": "Header",
+          "callee": "document.removeEventListener",
+          "lineNumber": 36
+        },
+        {
+          "caller": "Header",
+          "callee": "desktop.removeEventListener",
+          "lineNumber": 36
+        },
+        {
+          "caller": "Header",
+          "callee": "navigation.map",
+          "lineNumber": 42
+        },
+        {
+          "caller": "Header",
+          "callee": "setOpen",
+          "lineNumber": 42
+        },
+        {
+          "caller": "Header",
+          "callee": "menuButton.current?.focus",
+          "lineNumber": 43
+        },
+        {
+          "caller": "Header",
+          "callee": "setOpen",
+          "lineNumber": 43
+        },
+        {
+          "caller": "Header",
+          "callee": "onContact",
+          "lineNumber": 43
+        },
+        {
+          "caller": "Header",
+          "callee": "setOpen",
+          "lineNumber": 46
+        },
+        {
+          "caller": "Hero",
+          "callee": "useState",
+          "lineNumber": 53
+        },
+        {
+          "caller": "Hero",
+          "callee": "spaces.map",
+          "lineNumber": 56
+        },
+        {
+          "caller": "Hero",
+          "callee": "spaces[active].name.replace",
+          "lineNumber": 66
+        },
+        {
+          "caller": "Hero",
+          "callee": "spaces.map",
+          "lineNumber": 67
+        },
+        {
+          "caller": "Hero",
+          "callee": "space.name.toLowerCase",
+          "lineNumber": 67
+        },
+        {
+          "caller": "Hero",
+          "callee": "setActive",
+          "lineNumber": 67
+        },
+        {
+          "caller": "Hero",
+          "callee": "space.name.replace(/^The /,'').replace",
+          "lineNumber": 67
+        },
+        {
+          "caller": "Hero",
+          "callee": "space.name.replace",
+          "lineNumber": 67
+        },
+        {
+          "caller": "SpaceChapter",
+          "callee": "String(index + 1).padStart",
+          "lineNumber": 85
+        },
+        {
+          "caller": "SpaceChapter",
+          "callee": "String",
+          "lineNumber": 85
+        },
+        {
+          "caller": "SpaceChapter",
+          "callee": "onView",
+          "lineNumber": 91
+        },
+        {
+          "caller": "SpaceChapter",
+          "callee": "space.name.toLowerCase",
+          "lineNumber": 91
+        },
+        {
+          "caller": "SpaceChapter",
+          "callee": "next.name.toLowerCase",
+          "lineNumber": 101
+        },
+        {
+          "caller": "Services",
+          "callee": "spaces.map",
+          "lineNumber": 114
+        },
+        {
+          "caller": "Services",
+          "callee": "s.name.replace",
+          "lineNumber": 114
+        },
+        {
+          "caller": "Services",
+          "callee": "spaces.map",
+          "lineNumber": 115
+        },
+        {
+          "caller": "Philosophy",
+          "callee": "['See the whole picture', 'Keep what matters', 'Make it yours'].map",
+          "lineNumber": 126
+        },
+        {
+          "caller": "close",
+          "callee": "dialogRef.current?.close",
+          "lineNumber": 148
+        },
+        {
+          "caller": "containFocus",
+          "callee": "event.currentTarget.querySelectorAll",
+          "lineNumber": 151
+        },
+        {
+          "caller": "containFocus",
+          "callee": "event.preventDefault",
+          "lineNumber": 154
+        },
+        {
+          "caller": "containFocus",
+          "callee": "last?.focus",
+          "lineNumber": 154
+        },
+        {
+          "caller": "containFocus",
+          "callee": "event.preventDefault",
+          "lineNumber": 155
+        },
+        {
+          "caller": "containFocus",
+          "callee": "first?.focus",
+          "lineNumber": 155
+        },
+        {
+          "caller": "ContactDialog",
+          "callee": "document.body.classList.remove",
+          "lineNumber": 157
+        },
+        {
+          "caller": "ContactDialog",
+          "callee": "event.currentTarget.getBoundingClientRect",
+          "lineNumber": 157
+        },
+        {
+          "caller": "ContactDialog",
+          "callee": "close",
+          "lineNumber": 157
+        },
+        {
+          "caller": "ContactDialog",
+          "callee": "content.contacts.map",
+          "lineNumber": 164
+        },
+        {
+          "caller": "Footer",
+          "callee": "content.contacts.map",
+          "lineNumber": 174
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "useRef",
+          "lineNumber": 179
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "useEffect",
+          "lineNumber": 180
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "dialog?.showModal",
+          "lineNumber": 180
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "document.body.classList.add",
+          "lineNumber": 180
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "dialog?.close",
+          "lineNumber": 180
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "document.body.classList.remove",
+          "lineNumber": 180
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "trigger?.focus",
+          "lineNumber": 180
+        },
+        {
+          "caller": "move",
+          "callee": "onChange",
+          "lineNumber": 181
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "event.preventDefault",
+          "lineNumber": 182
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "onClose",
+          "lineNumber": 182
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "onClose",
+          "lineNumber": 182
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "event.currentTarget.querySelectorAll",
+          "lineNumber": 182
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "event.preventDefault",
+          "lineNumber": 182
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "last.focus",
+          "lineNumber": 182
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "event.preventDefault",
+          "lineNumber": 182
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "first.focus",
+          "lineNumber": 182
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "event.preventDefault",
+          "lineNumber": 182
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "move",
+          "lineNumber": 182
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "event.preventDefault",
+          "lineNumber": 182
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "move",
+          "lineNumber": 182
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "move",
+          "lineNumber": 185
+        },
+        {
+          "caller": "PhotoGallery",
+          "callee": "move",
+          "lineNumber": 185
+        },
+        {
+          "caller": "App",
+          "callee": "useState",
+          "lineNumber": 190
+        },
+        {
+          "caller": "App",
+          "callee": "useRef",
+          "lineNumber": 191
+        },
+        {
+          "caller": "openContact",
+          "callee": "dialogRef.current?.showModal",
+          "lineNumber": 192
+        },
+        {
+          "caller": "openContact",
+          "callee": "document.body.classList.add",
+          "lineNumber": 192
+        },
+        {
+          "caller": "App",
+          "callee": "setGallery",
+          "lineNumber": 199
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 0,
+        "functionCount": 13,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/media.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 14,
+      "nonEmptyLines": 14,
+      "exports": [
+        {
+          "name": "media",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}
