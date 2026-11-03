@@ -63,6 +63,7 @@ Media setup: place new files in **public/media/** and edit **src/media.ts**. See
 - `inspection/REVAMP-REVIEW.md`: current revamp evidence and limitations.
 
 Current checks: `npm run typecheck`, `npm run build`, `node scripts/server-check.mjs`, and `node scripts/verify.cjs`.
+The moved workspace layout now resolves shared Playwright from the category's `playwright-tests` folder. New capture/verification output goes to workspace `audits/cozyspace-rebuild/`; existing `inspection/` review files are historical records. Set browser temporary/profile paths under that audit directory before running captures.
 The browser check uses the existing sibling `playwright-tests/node_modules/playwright` installation and requires the local server at port 5175.
 
 REA capture inputs and browser verification scripts live in `inspection/`. Browser scripts accept `PLAYWRIGHT_MODULE`, an absolute path to an existing Playwright/Playwright Core `index.mjs`, and use installed Chrome. `verify-local.mjs` accepts `COZYSPACE_URL` for the local dev/preview address. They do not add testing dependencies to this project.
